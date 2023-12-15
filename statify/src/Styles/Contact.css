@@ -1,34 +1,35 @@
 .contact-page {
     text-align: center;
     margin: 50px;
-  }
-  
-  h1 {
+    background-image: url('https://media.istockphoto.com/id/1414916304/photo/sustainable-development-goal-concept-hands-holding-global-communication-network-with.jpg?s=1024x1024&w=is&k=20&c=2C-Ne40aowl68yOQ5Eh5RNdUrAjPZldzpXxSM3_lUrI=');
+}
+
+h1 {
     color: #333;
-  }
+}
   
-  form {
+form {
     display: flex;
     flex-direction: column;
     max-width: 400px;
     margin: 0 auto;
-  }
+}
   
-  label {
+label {
     margin-bottom: 8px;
-  }
+}
   
-  input,
+input,
   textarea {
     padding: 8px;
     margin-bottom: 16px;
-  }
+}
   
-  button {
+button {
     padding: 10px;
     background-color: #007bff;
-    color: #fff;
+    color: #928e8e;
     border: none;
     cursor: pointer;
-  }
+}
   
