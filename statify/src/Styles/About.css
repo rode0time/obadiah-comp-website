@@ -1,0 +1,52 @@
+/* Updated About.css */
+.about-us-page {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #3333338f;
+}
+
+.about-image .hey p {
+    color: black;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.about-image {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.solution-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Use nth-child(odd) for green and nth-child(even) for white */
+.solution-item:nth-child(odd) {
+    background-color: #1f8787; /* Set the background color for the green boxes */
+}
+
+.solution-item:nth-child(even) {
+    background-color: #ffffff; /* Set the background color for the white boxes */
+}
+
+/* Hover effect */
+.solution-item:hover {
+    background-color: #1f8787; /* Toggle back to green on hover */
+}
+
+/* You can customize the colors based on your preference */
+.solution-item h3 {
+    color: #333;
+}
+
+.solution-item p {
+    color: black;
+}

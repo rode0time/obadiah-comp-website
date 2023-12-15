@@ -1,0 +1,30 @@
+footer {
+    background-color: #20c997;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer img.footer-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.quick-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}

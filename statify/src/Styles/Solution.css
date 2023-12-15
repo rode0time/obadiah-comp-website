@@ -1,0 +1,21 @@
+.solutions-page {
+    text-align: center;
+    margin: 50px;
+}
+  
+h1 {
+    color: #333;
+}
+.solution-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.solution-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+}
+  
