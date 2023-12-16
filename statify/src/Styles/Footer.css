@@ -1,25 +1,64 @@
-/* Footer.css */
-
-.footer-content {
-    background-color:#1f8787; /* Set your desired background color */
-    color: #fff; /* Set your desired text color */
-    padding: 20px;
+.footer {
+    background-color: #1f8787;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+.footer h4 {
+    margin-bottom: 20px;
+    color: black;
+}
+  
+.icons .fa {
+    color: red;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px;
+}
+  
+.fa-heart-o {
+    color: chartreuse;
+}
+  
+.logo img {
+    width: 100px;
+    height: auto;
+}
+  
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.footer-section {
     text-align: center;
 }
   
-.footer-logo {
-    width: 100px; /* Set your desired width for the logo */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px;
+.footer-section h3 {
+    font-size: 18px;
+    color: black;
 }
   
-.quick-links a {
-    color: #fff; /* Set your desired link color */
-    margin: 0 10px;
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.footer-section ul li {
+    margin: 10px 0;
+}
+  
+.footer-section ul li a {
+    color: #fff;
     text-decoration: none;
+    display: block;
+    transition: color 0.3s;
 }
   
-.quick-links a:hover {
-    text-decoration: underline;
+.footer-section ul li a:hover {
+    color: #ffcc00;
 }
-  
+p{
+    color: black;
+}
