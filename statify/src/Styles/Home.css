@@ -1,13 +1,74 @@
+/* General styles for the best website ever */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+/* Homepage styles */
 .homepage {
-    text-align: center;
-    margin: 50px;
-    background-image: url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=400');
+  text-align: center;
+  margin: 50px;
+  /* background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=400'); */
+}
+
+.homepage h2 {
+  color: black;
+  background-color: aliceblue;
+}
+
+.homepage p {
+  text-shadow: white;
+  background-color: aliceblue;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Header styles */
+h2 {
+  color: #333;
+  margin-top: 30px;
+}
+
+/* Container styles */
+div {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Sub-header styles */
+h3 {
+  color: #555;
+}
+
+/* Paragraph styles */
+p {
+  color: #777;
+  line-height: 1.5;
+}
+
+/* Responsive design - adjust as needed */
+@media (max-width: 768px) {
+  .homepage {
+    padding: 10px;
   }
-  
-  h1 {
-    color: #333;
+
+  /* Partners section styles */
+  .partners {
+    flex-direction: column;
   }
-  
-  p {
-    color: #666;
+
+  .partners img {
+    margin-bottom: 10px;
   }
+}

@@ -7,7 +7,7 @@ import "../Styles/Navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <h5>get in touch tel: 07228732301</h5>
+      {/* <h5>get in touch tel: 07228732301</h5> */}
       <nav className="navbar">
         <div className="container">
           <div className="logo">

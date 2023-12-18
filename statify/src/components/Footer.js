@@ -40,6 +40,23 @@ const Footer = () => {
               <li><a href="/services">Services</a></li>
             </ul>
           </div>
+          {/* Additional content */}
+          <div className="footer-section">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="/company">About Us</a></li>
+              <li><a href="/technologies">Technologies</a></li>
+              <li><a href="/team">Our Team</a></li>
+              <li><a href="/careers">Careers</a></li>
+            </ul>
+          </div>
+          <div className="footer-section">
+            <h3>Contact Us</h3>
+            <p>1st Floor, Megahill, Eliud Wakaba Close, Ngong</p>
+            <p>P.O. BOX 275, Nairobi</p>
+            <p>Email: info@statify.co.ke</p>
+            <p>Phone No: +254796 265 933</p>
+          </div>
         </div>
       </footer>
 
