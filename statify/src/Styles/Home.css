@@ -1,74 +1,93 @@
-/* General styles for the best website ever */
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-}
+/* Styles/Home.css */
 
-/* Homepage styles */
 .homepage {
-  text-align: center;
-  margin: 50px;
-  /* background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=400'); */
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('https://media.istockphoto.com/id/1157789866/photo/modern-computer-laptop-with-blank-screen-on-counter-barand-window-view.jpg?b=1&s=612x612&w=0&k=20&c=U32926dZx8tFVg5o6ZHPSf3MZBW0Di1LNtnAODVixqM=');
+  background-size: cover;
+  background-position: center;
+  color: black; /* Add text color for better readability on the background image */
 }
 
-.homepage h2 {
-  color: black;
-  background-color: aliceblue;
+/* Overall Section Style */
+.section-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.9); /* Set a semi-transparent white background for better readability over the image */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.homepage p {
-  text-shadow: white;
-  background-color: aliceblue;
+/* Service Cards */
+.service-card {
+  background-color: forestgreen;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* List styles */
-ul {
+.service-card h3 {
+  color: #333;
+}
+
+.service-card p {
+  color: #666;
+}
+
+/* Modules List */
+.modules-list {
   list-style-type: none;
   padding: 0;
 }
 
-li {
-  margin-bottom: 8px;
+.modules-list-item {
+  margin-bottom: 5px;
 }
 
-/* Header styles */
+/* Highlight Colors */
+.primary-color {
+  color: #3498db;
+}
+
+.secondary-color {
+  color: #2ecc71;
+}
+
 h2 {
   color: #333;
-  margin-top: 30px;
-}
-
-/* Container styles */
-div {
+  
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
   margin-top: 20px;
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Sub-header styles */
-h3 {
-  color: #555;
-}
-
-/* Paragraph styles */
 p {
-  color: #777;
-  line-height: 1.5;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
 
-/* Responsive design - adjust as needed */
-@media (max-width: 768px) {
-  .homepage {
-    padding: 10px;
-  }
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
 
-  /* Partners section styles */
-  .partners {
-    flex-direction: column;
-  }
+ul.modules {
+  list-style-type: circle;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
 
-  .partners img {
-    margin-bottom: 10px;
-  }
+.partners {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.partner-image {
+  max-width: 0px;
+  max-height: 80px;
 }

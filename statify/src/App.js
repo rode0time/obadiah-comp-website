@@ -8,10 +8,12 @@ import Solution from './components/Solution';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Product from './components/Product';
+import { ChakraProvider } from '@chakra-ui/react'
 
 function App() {
   return (
     <div className="App">
+      <ChakraProvider>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,6 +24,9 @@ function App() {
         <Route path="/product" element={<Product />} />
       </Routes>
       <Footer />
+
+      </ChakraProvider>
+      
     </div>
   );
 }
