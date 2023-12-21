@@ -1,10 +1,11 @@
 import React from 'react';
 import '../Styles/Contact.css';
+import { Card,AbsoluteCenter,AspectRatio,Box,useDisclosure,ModalOverlay,ModalContent,Modal,ModalHeader,ModalBody,ModalFooter,ModalCloseButton,Collapse,Center,Wrap,WrapItem, CardHeader, CardBody,Image,Stack,Divider,ButtonGroup, CardFooter,Heading,Text,SimpleGrid, Button} from '@chakra-ui/react'
 
 const Contact = () => {
   return (
     <div className="contact-page">
-      <h1>Contact Us</h1>
+      {/* <h1>Contact Us</h1>
       <div className="contact-info">
         <div className="contact-details">
           <h2>Stakeholder Information</h2>
@@ -57,7 +58,16 @@ const Contact = () => {
         <textarea id="message" name="message" rows="4" required></textarea>
 
         <button type="submit">Submit</button>
-      </form>
+      </form> */}
+      <Center height='50px'>
+      <ion-icon name="call"></ion-icon>
+        <Divider orientation='vertical' />
+        <ion-icon name="mail"></ion-icon>
+      </Center>
+      <Divider />
+      <Center height='50px'>
+        <Divider orientation='vertical' />
+      </Center>
     </div>
   );
 };

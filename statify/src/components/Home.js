@@ -9,7 +9,9 @@ import {
 import "../Styles/Home.css";
 // import { color } from "framer-motion";
 // import { MdCheckCircle } from '@chakra-ui/react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Alert } from 'react-bootstrap';
 import  { useState} from 'react';
 
 
@@ -675,12 +677,15 @@ const headerStyle = {
           </Card>
         </SimpleGrid> 
       {/* <h2>Modules</h2> */}
-      <Box position='relative' padding='10'>
+      <Box position='relative' padding='10' color='black'>
         <Divider />
         <AbsoluteCenter bg='white' px='10' >
         Modules
         </AbsoluteCenter>
       </Box>
+      <Box
+        
+      />
       {/* <ul>
         <li>Finance Management</li>
         <li>HR Management</li>
@@ -694,6 +699,8 @@ const headerStyle = {
         <li>Dairy Management</li>
         <li>POS</li>
       </ul> */}
+     {/* <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button> */}
+  
       <Wrap spacing='30px' justify='center'>
             <WrapItem>
               <Center w='180px' h='80px' bg='red.200'>

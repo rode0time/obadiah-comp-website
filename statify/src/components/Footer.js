@@ -1,5 +1,8 @@
 import React from 'react';
 import '../Styles/Footer.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Alert } from 'react-bootstrap';
 
 const Footer = () => {
   return (
@@ -29,7 +32,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3>About Us</h3>
             <ul>
-              <li><a href="/about">Our Story</a></li>
+              <li><a href="/aboutus">Our Story</a></li>
               <li><a href="/team">Our Team</a></li>
             </ul>
           </div>
@@ -44,7 +47,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Company</h3>
             <ul>
-              <li><a href="/company">About Us</a></li>
+              <li><a href="/aboutus">About Us</a></li>
               <li><a href="/technologies">Technologies</a></li>
               <li><a href="/team">Our Team</a></li>
               <li><a href="/careers">Careers</a></li>

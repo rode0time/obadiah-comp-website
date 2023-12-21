@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styles/About.css';
 
+
 const AboutUs = () => {
   const modules = [
     
@@ -32,34 +33,52 @@ const AboutUs = () => {
 
   return (
     <div className="about-us-page">
-      <div className="container">
-        {/* <Routes>
-          <Route path="/" element={<Navbar />} />
-        </Routes> */}
-        {/* <h1>Statify Limitede Company</h1> */}
-        
-        <div className="about-image">
-        <p className='hey'>About Statify</p>
-          <div>
-            <img
-              src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400"
-              alt="About us"
-              style={{ maxWidth: '0%' }}
-            />
-            {/* <p>About Statify</p> */}
-          </div>
-          <section className="who-we-are">
-            <div className="solution-list">
-              {modules.map((module, index) => (
-                <div key={index} className="solution-item">
-                  <h3>{module.title}</h3>
-                  <p>{module.description}</p>
-                </div>
-              ))}
-            </div>
-          </section>
+      <div class="card mb-3">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.HK0q61yERC5T03xLe_DsDQAAAA&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+        <div class="card-body">
+          <h5 class="card-title">Overview</h5>
+          <p class="card-text">Statify Solutions Limited is a leading provider of comprehensive and integrated Enterprise Resource Planning (ERP) systems. With a strong focus on innovation and customer satisfaction, our company offers a wide range of ERP solutions that cater to diverse industries and business needs. Our robust and scalable software modules cover various domains, including finance and accounting, HR and payroll, loan management, education, health, manufacturing, point of sale (POS), fleet management, and data analytics.</p>
+          {/* <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> */}
         </div>
       </div>
+     <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.iZwFQwh0kX3Xk0OJSdO9qAHaD_&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">Our Vission</h5>
+                <p class="card-text">.......................................................</p>
+              </div>
+              <div class="card-footer">
+                {/* <small class="text-body-secondary">Last updated 3 mins ago</small> */}
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">Mission</h5>
+                <p class="card-text">To deliver cutting-edge ERP software solutions that align with industry best practices, address complex business challenges, and drive digital transformation for our clients worldwide. We aim to enhance our offerings by integrating the power of data analytics to empower organizations with valuable insights.</p>
+              </div>
+              <div class="card-footer">
+                {/* <small class="text-body-secondary">Last updated 3 mins ago</small> */}
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="https://tse3.mm.bing.net/th?id=OIP.TTPv3wjs5E0ia7fdPj_EIgHaDe&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+              <div class="card-body">
+                <h5 class="card-title">Motto</h5>
+                <p class="card-text">Provide the best service to our customers</p>
+              </div>
+              <div class="card-footer">
+                {/* <small class="text-body-secondary">Last updated 3 mins ago</small> */}
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   );
 };

@@ -35,7 +35,7 @@ button {
    */
 /* Contact.css */
 
-.contact-page {
+/* .contact-page {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -63,8 +63,7 @@ button {
   
   .stakeholder img {
     width: 100px; /* Adjust the size as needed */
-    border-radius: 50%; /* Make the image circular */
-    margin-bottom: 10px;
+    /* border-radius: 50%; 
   }
   
   form {
@@ -73,26 +72,5 @@ button {
   
   label {
     display: block;
-    margin-bottom: 5px;
-  }
-  
-  input,
-  textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  }
-  
-  button {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
+    margin-bottom: 5px; */
   
