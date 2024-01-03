@@ -1,5 +1,10 @@
 import React from 'react';
 import '../Styles/About.css';
+import {Heading,CardHeader,Card,CardBody,Button,CardFooter,Text} from "@chakra-ui/react";
+import {
+  ListItem,
+  UnorderedList
+} from '@chakra-ui/react'
 
 
 const AboutUs = () => {
@@ -44,10 +49,10 @@ const AboutUs = () => {
      <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
-              <img src="https://tse2.mm.bing.net/th?id=OIP.iZwFQwh0kX3Xk0OJSdO9qAHaD_&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+              <img src="https://tse3.mm.bing.net/th?id=OIP.TTPv3wjs5E0ia7fdPj_EIgHaDe&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title">Our Vission</h5>
-                <p class="card-text">.......................................................</p>
+                <p class="card-text">To empower organizations with efficient and intelligent ERP solutions, enabling them to streamline operations, maximize productivity, and achieve sustainable growth. We strive to integrate advanced data analytics capabilities to provide actionable insights for better decision-making.</p>
               </div>
               <div class="card-footer">
                 {/* <small class="text-body-secondary">Last updated 3 mins ago</small> */}
@@ -56,7 +61,7 @@ const AboutUs = () => {
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+              <img src="https://tse2.mm.bing.net/th?id=OIP.iZwFQwh0kX3Xk0OJSdO9qAHaD_&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
               <div class="card-body">
                 <h5 class="card-title">Mission</h5>
                 <p class="card-text">To deliver cutting-edge ERP software solutions that align with industry best practices, address complex business challenges, and drive digital transformation for our clients worldwide. We aim to enhance our offerings by integrating the power of data analytics to empower organizations with valuable insights.</p>
@@ -68,10 +73,17 @@ const AboutUs = () => {
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="https://tse3.mm.bing.net/th?id=OIP.TTPv3wjs5E0ia7fdPj_EIgHaDe&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+              <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
               <div class="card-body">
-                <h5 class="card-title">Motto</h5>
-                <p class="card-text">Provide the best service to our customers</p>
+                <h5 class="card-title">Core Values</h5>
+                {/* <p class="card-text">Provide the best service to our customers</p> */}
+                <UnorderedList>
+                  <ListItem>Collaboration</ListItem>
+                  <ListItem>Expertise</ListItem>
+                  <ListItem>Transparency</ListItem>
+                  <ListItem>Adaptability</ListItem>
+                  <ListItem>Innovation</ListItem>
+                </UnorderedList>
               </div>
               <div class="card-footer">
                 {/* <small class="text-body-secondary">Last updated 3 mins ago</small> */}
@@ -79,8 +91,69 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
+        <Card align='center'>
+          <CardHeader>
+            <Heading size='md'>Why Choose Statify Solutions Limited ?</Heading>
+            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+          </CardHeader>
+          <CardBody>
+            <Text>Comprehensive and Integrated: Our ERP system covers a wide range of modules, allowing organizations to consolidate their operations into a single unified platform.</Text>
+          </CardBody>
+          
+        </Card>
+        <Card align='center'>
+          <CardHeader>
+            <Heading size='md'>Scalable and Customizable:</Heading>
+          <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+          </CardHeader>
+          <CardBody>
+            <Text>Our software is designed to accommodate the evolving needs of businesses and can be tailored to specific requirements.</Text>
+          </CardBody>
+          
+        </Card>
+        <Card align='center'>
+          <CardHeader>
+            <Heading size='md'>Industry Expertise: </Heading>
+            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+          </CardHeader>
+          <CardBody>
+            <Text>We have extensive experience serving diverse industries, enabling us to provide industry-specific solutions that address unique challenges.</Text>
+          </CardBody>
+          
+        </Card>
+        <Card align='center'>
+          <CardHeader>
+            <Heading size='md'>User-Friendly Interface: </Heading>
+            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+          </CardHeader>
+          <CardBody>
+            <Text>Our ERP software features an intuitive anduser-friendly interface, ensuring ease of use and minimal training requirements.</Text>
+          </CardBody>
+          
+        </Card>
+        <Card align='center'>
+          <CardHeader>
+            <Heading size='md'>Robust Security:</Heading>
+            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+          </CardHeader>
+          <CardBody>
+            <Text>We prioritize data security and employ advanced encryption and authentication mechanisms to protect sensitive business information.</Text>
+          </CardBody>
+          
+        </Card>
+        <Card align='center'>
+          <CardHeader>
+            <Heading size='md'>Dedicated Support:</Heading>
+            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+          </CardHeader>
+          <CardBody>
+            <Text>Our team of experienced professionals provides dedicated support throughout the implementation and maintenance of our ERP system, ensuring a smooth and successful deployment.</Text>
+          </CardBody>
+          
+        </Card>
     </div>
   );
 };
 
 export default AboutUs;
+

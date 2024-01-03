@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Card,AbsoluteCenter,AspectRatio,Box,useDisclosure,ModalOverlay,ModalContent,Modal,ModalHeader,ModalBody,ModalFooter,ModalCloseButton,Collapse,Center,Wrap,WrapItem, CardHeader, CardBody,Image,Stack,Divider,ButtonGroup, CardFooter,Heading,Text,SimpleGrid, Button} from '@chakra-ui/react'
+import { Card,AbsoluteCenter,useDisclosure,AspectRatio,Box,ModalOverlay,ModalContent,Modal,ModalHeader,ModalBody,ModalFooter,ModalCloseButton,Collapse,Center,Wrap,WrapItem, CardHeader, CardBody,Image,Stack,Divider,ButtonGroup, CardFooter,Heading,Text,SimpleGrid, Button} from '@chakra-ui/react'
 import {
 
   ListItem,

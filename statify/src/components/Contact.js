@@ -1,73 +1,96 @@
 import React from 'react';
 import '../Styles/Contact.css';
-import { Card,AbsoluteCenter,AspectRatio,Box,useDisclosure,ModalOverlay,ModalContent,Modal,ModalHeader,ModalBody,ModalFooter,ModalCloseButton,Collapse,Center,Wrap,WrapItem, CardHeader, CardBody,Image,Stack,Divider,ButtonGroup, CardFooter,Heading,Text,SimpleGrid, Button} from '@chakra-ui/react'
+// import {AspectRatio} from chakra
+import { AspectRatio,Flex,Avatar,Box,Text,Badge} from '@chakra-ui/react';
+// import styled from 'styled-components';
+// import SectionTitle from './SectionTitle'
+// import ContactInfoItem from './ContactInfoItem';
+
+
 
 const Contact = () => {
   return (
     <div className="contact-page">
-      {/* <h1>Contact Us</h1>
-      <div className="contact-info">
-        <div className="contact-details">
-          <h2>Stakeholder Information</h2>
-          <div className="stakeholder">
-            <img src="path/to/stakeholder1.jpg" alt="Stakeholder 1" />
-            <p>
-              For general inquiries, please contact:
-              <br />
-              <strong>John Doe</strong>
-              <br />
-              Email: john.doe@example.com
-              <br />
-              Phone: (123) 456-7890
-            </p>
+    
+      {/*  */}
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.xry166oVXKfLT82jVoVXgQHaDE&pid=Api&P=0&h=220" class="d-block w-100" alt="..."/>
+            <p>1st Floor, Megahill, Eliud Wakaba Close, Ngong</p>
           </div>
-          <div className="stakeholder">
-            <img src="path/to/stakeholder2.jpg" alt="Stakeholder 2" />
-            <p>
-              For partnership opportunities, please contact:
-              <br />
-              <strong>Jane Smith</strong>
-              <br />
-              Email: jane.smith@example.com
-              <br />
-              Phone: (234) 567-8901
-            </p>
+          <div class="carousel-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.ciidDUS2n7HU-5uhUPnN8gHaDM&pid=Api&P=0&h=220" class="d-block w-100" alt="..."/>
+            <p>P.O. BOX 275, Nairobi</p>
           </div>
-          <div className="stakeholder">
-            <img src="path/to/stakeholder3.jpg" alt="Stakeholder 3" />
-            <p>
-              For media inquiries, please contact:
-              <br />
-              <strong>Bob Johnson</strong>
-              <br />
-              Email: bob.johnson@example.com
-              <br />
-              Phone: (345) 678-9012
-            </p>
+          <div class="carousel-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.5kD-AVLlBwHa4DM7OqiQoAHaE8&pid=Api&P=0&h=220" class="d-block w-100" alt="..."/>
+            <p>Email: info@statify.co.ke</p>
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <form>
-        <label htmlFor="name">Your Name:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label htmlFor="email">Your Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label htmlFor="message">Your Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Submit</button>
-      </form> */}
-      <Center height='50px'>
-      <ion-icon name="call"></ion-icon>
-        <Divider orientation='vertical' />
-        <ion-icon name="mail"></ion-icon>
-      </Center>
-      <Divider />
-      <Center height='50px'>
-        <Divider orientation='vertical' />
-      </Center>
+      <Flex>
+        <Avatar src='https://bit.ly/sage-adebayo' />
+        <Box ml='3'>
+          <Text fontWeight='bold'>
+            Philemon Limo
+            <Badge ml='50' colorScheme='green'>
+              
+            </Badge>
+          </Text>
+          <Text fontSize='sm'>Sinior Functioanal consoltant</Text>
+        </Box>
+      </Flex>
+      <Flex>
+          <Avatar src='https://bit.ly/sage-adebayo' />
+          <Box ml='70'>
+            <Text fontWeight='bold'>
+              Shadrack Kipkoech
+              <Badge ml='1' colorScheme='green'>
+                
+              </Badge>
+            </Text>
+            <Text fontSize='sm'>Sinior Functioanal consoltant</Text>
+          </Box>
+        </Flex>
+        <Flex>
+          <Avatar src='https://bit.ly/sage-adebayo' />
+          <Box ml='120'>
+            <Text fontWeight='bold'>
+              Obadia Kim
+              <Badge ml='1' colorScheme='green'>
+                New
+              </Badge>
+            </Text>
+            <Text fontSize='sm'>Software Engineer</Text>
+          </Box>
+        </Flex>
+        <Flex>
+          <Avatar src='https://bit.ly/sage-adebayo' />
+          <Box ml='170'>
+            <Text fontWeight='bold'>
+              Eliab Karan
+              <Badge ml='1' colorScheme='green'>
+                New
+              </Badge>
+            </Text>
+            <Text fontSize='sm'>Software Engineer</Text>
+          </Box>
+        </Flex>
+      <AspectRatio ratio={25 / 5}>
+        <iframe
+          src='https://www.google.com/maps/place/Wakaba+Close,+Kenya/@-1.274605,36.5518148,12z/data=!4m10!1m2!2m1!1sWakaba+Close,+Kenya!3m6!1s0x182edf87d0371b45:0xfa01745db3396fea!8m2!3d-1.1972074!4d36.6072327!15sChNXYWthYmEgQ2xvc2UsIEtlbnlhkgEFcm91dGXgAQA!16s%2Fg%2F1tgldq09?hl=en&entry=ttu'
+        />
+      </AspectRatio>
+      
     </div>
   );
 };
