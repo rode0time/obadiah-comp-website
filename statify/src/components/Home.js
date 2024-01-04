@@ -59,14 +59,13 @@ const headerStyle = {
 
   return (
     <div className="homepage">
-      <h2>STATIFY SOLUTIONS LIMITED</h2>
-      <p>
+   
+      {/* <p>
         Statify Solutions Limited is a provider of comprehensive and integrated
         Enterprise Resource Planning (ERP) systems. With a strong focus on
         innovation and customer satisfaction, our company offers a wide range of
-        ERP solutions that cater to diverse industries and business needs. Our
-        robust and scalable software modules cover various domains, including:
-      </p>
+        ERP solutions that cater to diverse industries and business needs. 
+      </p> */}
       {/* <List spacing={3}>
           <ListItem>
             <MdCheckCircle/>
@@ -118,9 +117,21 @@ const headerStyle = {
         <li>Fleet management</li>
         <li>Data analytics</li>
       </ul> */}
-      <AspectRatio   ratio={25 / 5}>
+      {/* <AspectRatio   ratio={25 / 5}>
         <Image src='https://tse1.mm.bing.net/th?id=OIP.Q5OcKc6OVDA4I2WqEJQQBgHaDP&pid=Api&P=0&h=220' alt='ICT' objectFit='cover' />
-      </AspectRatio>
+        
+      </AspectRatio> */}
+      <div className="card text-bg-white">
+          <img src="https://dynasoft.co.ke/wp-content/uploads/2020/02/dynasoft-business-banner.jpg?id=11503" className="card-img" alt="..."/>
+          <div className="card-img-overlay">
+              <h2 className="card-title" style={{ color: '#1f8787', fontSize: '35px',paddingLeft:'30%' }}>Discover unparalleled system consulting and implementation solutions with us.</h2>
+              <p className="card-text" style={{ color: 'black', fontSize: '20px',paddingLeft:'38%' }}>Our comprehensive services cover the entire spectrum, from design and development to training, deployment, and ongoing support for business applications. Tailored to address the unique business requirements and customer challenges of our clients, our offerings ensure a seamless and effective integration of cutting-edge solutions for your success.</p>
+              {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+          </div>
+      </div>
+
+
+      <Text></Text>
       
 
       <h2 style={headerStyle}>Our Solutions</h2>
@@ -174,7 +185,7 @@ const headerStyle = {
           recommend strategic solutions to drive growth and efficiency.
         </p>
       </div> */}
-      <SimpleGrid spacing={3}  templateColumns='repeat(auto-fill, minmax(150px ,1fr))'>
+      <SimpleGrid spacing={4}  templateColumns='repeat(auto-fill, minmax(150px ,1fr))'>
         <Card>
       <Stack direction='column'>
         
@@ -700,14 +711,146 @@ const headerStyle = {
         <li>POS</li>
       </ul> */}
      {/* <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button> */}
-  
-      <Wrap spacing='30px' justify='center'>
-            <WrapItem>
+            {/* <div class="card" style={{width: '18rem'}}>
+              <div class="card-body">
+                <h5 class="card-title"style={{backgroundColor:'#ffc107'}}>Finance Management</h5> */}
+                {/* <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> */}
+                {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+                {/* <a href="#" class="card-link">Card link</a> */}
+                {/* <a href="/product" class="card-link">Read More</a>
+              </div>
+              
+            </div> */}
+            <SimpleGrid spacing={2} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
+              <Card size='sm'>
+              <img src="https://tse1.mm.bing.net/th?id=OIP.zVvguAa2jFGOBEECtu4JkgHaE8&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'>Finance Management </Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+              <Card>
+              <img src="https://tse1.mm.bing.net/th?id=OIP.-vQ0Kna73pDkPKv8Cc5Q_QHaDg&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'>HR Management</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+              <Card>
+              <img src="https://tse2.mm.bing.net/th?id=OIP.FOIHEYqwsLrpHdBjMuw2-QHaES&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'>Payroll Finance Management</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+              <Card>
+              <img src="https://tse1.mm.bing.net/th?id=OIP.MREGQTBlH3p3p8jXGksN3QHaEU&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'>Manufacturing</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+              <Card>
+              <img src="https://tse3.mm.bing.net/th?id=OIP.ezhmEejm8bicUIrrgD3ZtgHaEL&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'>Warehouse Management</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+              <Card>
+              <img src="https://tse4.mm.bing.net/th?id=OIP.ipHceY5n40jj-JdOgln1dQHaFj&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'>Loans Management</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+              <Card>
+              <img src="https://tse2.mm.bing.net/th?id=OIP.vsU8Z9TkNMygT2Ye7vGYKQHaEK&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'>Health Management</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+              <Card>
+              <img src="https://tse3.mm.bing.net/th?id=OIP._rdHB9LTODxUDFgl5QlfBAHaFQ&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'>Project Management</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+              <Card>
+              <img src="https://tse1.mm.bing.net/th?id=OIP.BZxJKx9d9LfoMixgK22EGgHaDt&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'>Dairy Management</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+              <Card>
+              <img src="https://tse3.mm.bing.net/th?id=OIP.189SJeQ6JES5PCl3PuN-OwHaD-&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+                <CardHeader>
+                  <Heading size='md'> POS</Heading>
+                </CardHeader>
+                <CardBody>
+                  <Text></Text>
+                </CardBody>
+                <CardFooter>
+                <a href="/product" class="card-link">Read More</a>
+                </CardFooter>
+              </Card>
+            </SimpleGrid>
+      {/* <Wrap spacing='30px' justify='center'>
+            {/* <WrapItem>
               <Center w='180px' h='80px' bg='red.200'>
               Finance Management
               </Center>
-            </WrapItem>
-            <WrapItem>
+            </WrapItem> */}
+            
+            {/* <WrapItem>
               <Center w='180px' h='80px' bg='green.200'>
               HR Management
               </Center>
@@ -755,7 +898,7 @@ const headerStyle = {
               </Center>
             </WrapItem>
           </Wrap>
-      
+       */} 
       <h4>Our Partners/Technologies</h4>
       {/* <div className="partners">
         <img src="https://statify.co.ke/Images/Erpnextimages.png" alt="ERPNext" />
@@ -796,6 +939,7 @@ const headerStyle = {
         alt='Microsoft Partner'
       />
       </SimpleGrid> 
+      
     </div>
   );
 };
