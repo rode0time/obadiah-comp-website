@@ -12,14 +12,14 @@ const Navbar = () => {
         <div className="container">
           <div className="logo">
           
-            <img
+            <Link to="/"><img
             
               src="https://statify.co.ke/Images/IMG-20230305-WA0043.jpg"
               alt="Logo"
               className="logo"
               
-            />
-            <Link to="/">Statify</Link>
+            /></Link>
+            {/* <Link to="/">Statify</Link> */}
           </div>
 
           <ul className="nav-links">
@@ -52,7 +52,7 @@ const Navbar = () => {
                 <Link to="#ERP Implementation">ERP Implementation & Support</Link>
                 
                 <Link to="#Data Analysis">Data Analysis</Link>
-                <Link to="#ICT Consultancy">ICT Consultancy</Link>
+                <Link to="#Power BI ">Power BI</Link>
               </div>
             
             </li>

@@ -39,7 +39,7 @@ const AboutUs = () => {
   return (
     <div className="about-us-page">
       <div class="card mb-3">
-        <img src="https://tse1.mm.bing.net/th?id=OIP.HK0q61yERC5T03xLe_DsDQAAAA&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+        {/* <img src="https://tse1.mm.bing.net/th?id=OIP.5I6mZ-L2mZcSdOq1rzkkqgAAAA&pid=Api&P=0&h=220" class="card-img-top" alt="..."/> */}
         <div class="card-body">
           <h5 class="card-title">Overview</h5>
           <p class="card-text">Statify Solutions Limited is a leading provider of comprehensive and integrated Enterprise Resource Planning (ERP) systems. With a strong focus on innovation and customer satisfaction, our company offers a wide range of ERP solutions that cater to diverse industries and business needs. Our robust and scalable software modules cover various domains, including finance and accounting, HR and payroll, loan management, education, health, manufacturing, point of sale (POS), fleet management, and data analytics.</p>

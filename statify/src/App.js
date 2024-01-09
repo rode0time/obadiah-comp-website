@@ -11,12 +11,18 @@ import Product from './components/Product';
 import { ChakraProvider } from '@chakra-ui/react';
 import { Container } from 'react-bootstrap'; // Import Container from react-bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ERPNext from './components/ERPNext';
+import Payroll from './components/Payroll';
+import Hr from './components/Hr';
+import Manufacture from './components/Manufacture';
+import OurTeam from './components/OurTeam';
 
 function App() {
   return (
     <div className="App">
       <ChakraProvider>
         <Navbar />
+        
         {/* <Container> Use the Container component from react-bootstrap */}
           <Routes>
             <Route path="/" element={<Home />} />
@@ -25,6 +31,11 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/solution" element={<Solution />} />
             <Route path="/product" element={<Product />} />
+            <Route path="/erpnext" element={<ERPNext />} />
+            <Route path="/payroll" element={<Payroll />} />
+            <Route path="/hr" element={<Hr />} />
+            <Route path="/manufacture" element={<Manufacture/>}/>
+            <Route path="/ourteam" element={<OurTeam/>}/>
           </Routes>
         {/* </Container> */}
         <Footer />

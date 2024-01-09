@@ -7,11 +7,11 @@
   
 .footer h4 {
     margin-bottom: 20px;
-    color: black;
+    color:#1f8787;
 }
   
 .icons .fa {
-    color: red;
+    color: rgb(68, 68, 168);
     margin: 0 13px;
     cursor: pointer;
     padding: 18px;
@@ -65,9 +65,9 @@ p{
 .footer footer {
     display: flex;
     justify-content: space-around;
-    background-color: #333; /* Adjust the background color as needed */
+    background-color: #1f8787; /* Adjust the background color as needed */
     padding: 20px;
-    color: white;
+    color: black;
   }
   
   .footer .footer-links {

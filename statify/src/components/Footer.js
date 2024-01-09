@@ -1,5 +1,7 @@
 import React from 'react';
 import '../Styles/Footer.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Alert } from 'react-bootstrap';
@@ -7,14 +9,9 @@ import '../Styles/Footer.css';
 const Footer = () => {
   return (
     <section className="footer">
-      <h4>About Us</h4>
-      <p>We are the best</p>
-      <div className="icons">
-        <i className="fa fa-facebook"></i>
-        <i className="fa fa-twitter"></i>
-        <i className="fa fa-instagram"></i>
-        <i className="fa fa-linkedin"></i>
-      </div>
+      {/* <h4>About Us</h4> */}
+      {/* <p>We are the best</p> */}
+      
 
       {/* Your existing code */}
       <footer className="footer">
@@ -33,7 +30,7 @@ const Footer = () => {
             <h3>About Us</h3>
             <ul>
               <li><a href="/aboutus">Our Story</a></li>
-              <li><a href="/team">Our Team</a></li>
+              <li><a href="/ourteam">Our Team</a></li>
             </ul>
           </div>
           <div className="footer-section">
@@ -49,7 +46,7 @@ const Footer = () => {
             <ul>
               <li><a href="/aboutus">About Us</a></li>
               <li><a href="/technologies">Technologies</a></li>
-              <li><a href="/team">Our Team</a></li>
+              {/* <li><a href="/team">Our Team</a></li> */}
               <li><a href="/careers">Careers</a></li>
             </ul>
           </div>
@@ -62,8 +59,14 @@ const Footer = () => {
           </div>
         </div>
       </footer>
+      <div className="icons">
+        <i className="fa fa-facebook"></i>
+        <i className="fa fa-twitter" ></i>
+        <i className="fa fa-instagram"></i>
+        <i className="fa fa-linkedin"></i>
+      </div>
 
-      <p>Powered by <i className="fa fa-heart-o"></i> Statify Company</p>
+      <p>Powered by <i className="fa fa-heart-o"></i> Statify Solution Limited</p>
     </section>
   );
 };

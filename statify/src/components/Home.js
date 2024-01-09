@@ -185,6 +185,114 @@ const headerStyle = {
           recommend strategic solutions to drive growth and efficiency.
         </p>
       </div> */}
+      {/* <div style={{backgroundIMmage: 'cover',backgroundImage:'no repeat',backgroundImage:`url('https://tse3.mm.bing.net/th?id=OIP.S1dlDq1gwy7tTESZNs0K4AHaDb&pid=Api&P=0&h=220')`}}>
+      <div style={{paddingLeft:'0%'}}>
+      <div class="card mb-3" style={{maxWidth: '540px'}}>
+          <div class="row g-0">
+              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
+                  <img src="https://tse2.mm.bing.net/th?id=OIP.SH9mW-QgXZFHxlIU8YWTTAHaEK&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
+              </div>
+              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
+                  <div class="card-body">
+                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Data Analysis using Power BI</h5>
+                      <p class="card-text" style={{color: 'white'}}>We help businesses leverage the power of data by providing data analysis services using Microsoft Power BI. Our experts analyze data, create interactive visualizations, and develop insightful reports to enable data-driven decision-making.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div style={{paddingRight:'0%'}}>
+      <div class="card mb-3" style={{maxWidth: '540px'}}>
+          <div class="row g-0">
+              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
+                  <img src="" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
+              </div>
+              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
+                  <div class="card-body">
+                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>ERPNext System Implementation</h5>
+                      <p class="card-text" style={{color: 'white'}}>We help businesses leverage the power of data by providing data analysis services using Microsoft Power BI. Our experts analyze data, create interactive visualizations, and develop insightful reports to enable data-driven decision-making.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div style={{paddingLeft:'0%'}}>
+      <div class="card mb-3" style={{maxWidth: '540px'}}>
+          <div class="row g-0">
+              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
+                  <img src="https://tse2.explicit.bing.net/th?id=OIP.MYmaGpLxM4D4eLjARbyVMgAAAA&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
+              </div>
+              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
+                  <div class="card-body">
+                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Microsoft Dynamics 365 Implementation</h5>
+                      <p class="card-text" style={{color: 'white'}}>We offer end-to-end implementation services for ERPNext, an open-source
+          enterprise resource planning (ERP) solution. Our team ensures a seamless
+          integration of ERPNext into your business processes, enabling efficient
+          management of operations, inventory, sales, and more.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div style={{paddingRight:'0%'}}>
+      <div class="card mb-3" style={{maxWidth: '540px'}}>
+          <div class="row g-0">
+              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
+                  <img src="https://tse2.explicit.bing.net/th?id=OIP.MYmaGpLxM4D4eLjARbyVMgAAAA&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
+              </div>
+              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
+                  <div class="card-body">
+                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Microsoft Dynamics 365 Implementation</h5>
+                      <p class="card-text" style={{color: 'white'}}>We offer end-to-end implementation services for ERPNext, an open-source
+          enterprise resource planning (ERP) solution. Our team ensures a seamless
+          integration of ERPNext into your business processes, enabling efficient
+          management of operations, inventory, sales, and more.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div style={{paddingLeft:'-0%'}}>
+      <div class="card mb-3" style={{maxWidth: '540px'}}>
+          <div class="row g-0">
+              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
+                  <img src="https://tse2.explicit.bing.net/th?id=OIP.MYmaGpLxM4D4eLjARbyVMgAAAA&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
+              </div>
+              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
+                  <div class="card-body">
+                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Microsoft Dynamics 365 Implementation</h5>
+                      <p class="card-text" style={{color: 'white'}}>We offer end-to-end implementation services for ERPNext, an open-source
+          enterprise resource planning (ERP) solution. Our team ensures a seamless
+          integration of ERPNext into your business processes, enabling efficient
+          management of operations, inventory, sales, and more.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div style={{paddingRight:'-0%'}}>
+      <div class="card mb-3" style={{maxWidth: '540px'}}>
+          <div class="row g-0">
+              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
+                  <img src="https://tse2.mm.bing.net/th?id=OIP.VEzlDn5JbGT_wubiqC_fMwHaEK&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
+              </div>
+              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
+                  <div class="card-body">
+                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Data Analysis using Power BI</h5>
+                      <p class="card-text" style={{color: 'white'}}>We help businesses leverage the power of data by providing data analysis services using Microsoft Power BI. Our experts analyze data, create interactive visualizations, and develop insightful reports to enable data-driven decision-making.</p>
+                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      </div>
+      </div> */}
+
       <SimpleGrid spacing={4}  templateColumns='repeat(auto-fill, minmax(150px ,1fr))'>
         <Card>
       <Stack direction='column'>
@@ -228,12 +336,12 @@ const headerStyle = {
                   <Button onClick={onClose}>Close</Button>
                 </ModalFooter>
               </ModalContent>
-            </Modal>
+            </Modal> 
             
-          </ButtonGroup>
+           </ButtonGroup> 
         </Box>
-      </Stack>
-      </Card>
+       </Stack>
+       </Card>
       
           {/* <Card backgroundColor={"blueviolet"}>
             <CardHeader>
@@ -251,7 +359,7 @@ const headerStyle = {
               <Button>View here</Button>
             </CardFooter>
           </Card> */}
-          <Card>
+           <Card>
           <CardHeader>
               <Heading size='md'>ERPNext System Implementation </Heading>
             </CardHeader>
@@ -297,7 +405,7 @@ const headerStyle = {
                 </ButtonGroup>
               </Box>
               </Stack>
-            </Card>
+            </Card> 
           {/* <Card>
             <CardHeader>
               <Heading size='md'>ERPNext System Implementation </Heading>
@@ -687,16 +795,16 @@ const headerStyle = {
             </CardFooter>
           </Card>
         </SimpleGrid> 
-      {/* <h2>Modules</h2> */}
-      <Box position='relative' padding='10' color='black'>
+      <h2>Modules</h2>
+      {/* <Box position='relative' padding='10' color='black'>
         <Divider />
         <AbsoluteCenter bg='white' px='10' >
         Modules
         </AbsoluteCenter>
       </Box>
-      <Box
+      <Box */}
         
-      />
+      
       {/* <ul>
         <li>Finance Management</li>
         <li>HR Management</li>
@@ -721,6 +829,25 @@ const headerStyle = {
               </div>
               
             </div> */}
+            <div className="card text-sm-white" style={{width:'100%',height:'200%'}}>
+              <img src="https://tse4.mm.bing.net/th?id=OIP.mO9NrgO50YSKyVnvgIf9ZQHaE7&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <div className="card-img-overlay">
+                  <h2 className="card-title" style={{ paddingTop:'5%',paddingLeft:'10%',color: '#ffc107', fontSize: '40px'}}>Discover Erp Modules With Us.</h2>
+                  <p className="card-text" style={{ paddingTop:'5%',color: 'white', fontSize: '20px' }}>As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.
+
+                Engagement Details:
+                Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.</p>
+                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  <a class="btn btn-primary" href="/" role="button">Discover More</a>
+              </div>
+              
+              </div>
+          {/* <Text noOfLines={[1, 2, 3]}>
+          As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.
+
+            Engagement Details:
+            Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.
+          </Text> */}
             <SimpleGrid spacing={2} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
               <Card size='sm'>
               <img src="https://tse1.mm.bing.net/th?id=OIP.zVvguAa2jFGOBEECtu4JkgHaE8&pid=Api&P=0&h=220" className="card-img" alt="..."/>
@@ -728,10 +855,11 @@ const headerStyle = {
                   <Heading size='md'>Finance Management </Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Our ERP system includes a comprehensive finance and...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                  
+                <a href="/erpnext" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -740,22 +868,22 @@ const headerStyle = {
                   <Heading size='md'>HR Management</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Manage full employee life cycle right from onboarding...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                <a href="/hr" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
               <img src="https://tse2.mm.bing.net/th?id=OIP.FOIHEYqwsLrpHdBjMuw2-QHaES&pid=Api&P=0&h=220" className="card-img" alt="..."/>
                 <CardHeader>
-                  <Heading size='md'>Payroll Finance Management</Heading>
+                  <Heading size='md'>Payroll Management</Heading>
                 </CardHeader>
                 <CardBody>
                   <Text></Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                <a href="/payroll" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -767,7 +895,7 @@ const headerStyle = {
                   <Text></Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                <a href="/manufacture" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -779,7 +907,7 @@ const headerStyle = {
                   <Text></Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                <a href="/product" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -788,10 +916,10 @@ const headerStyle = {
                   <Heading size='md'>Loans Management</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Our ERP system includes a feature-rich loan management...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                <a href="/product" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -800,10 +928,10 @@ const headerStyle = {
                   <Heading size='md'>Health Management</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Our ERP system provides a holistic health management...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                <a href="/product" class="card-link">Read More → </a>
                 </CardFooter>
               </Card>
               <Card>
@@ -812,10 +940,10 @@ const headerStyle = {
                   <Heading size='md'>Project Management</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Deliver both internal and external projects on time... </Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                <a href="/product" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -827,7 +955,7 @@ const headerStyle = {
                   <Text></Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                <a href="/product" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -836,10 +964,10 @@ const headerStyle = {
                   <Heading size='md'> POS</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Our ERP system incorporates a feature-rich POS module...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More</a>
+                <a href="/product" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
             </SimpleGrid>
