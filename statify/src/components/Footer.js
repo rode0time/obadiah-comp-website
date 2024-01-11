@@ -60,11 +60,12 @@ const Footer = () => {
         </div>
       </footer>
       <div className="icons">
-        <i className="fa fa-facebook"></i>
-        <i className="fa fa-twitter" ></i>
-        <i className="fa fa-instagram"></i>
-        <i className="fa fa-linkedin"></i>
-      </div>
+    <a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/your-twitter-account" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/your-instagram-account" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
+</div>
+
 
       <p>Powered by <i className="fa fa-heart-o"></i> Statify Solution Limited</p>
     </section>

@@ -91,66 +91,99 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <Card align='center'>
-          <CardHeader>
-            <Heading size='md'>Why Choose Statify Solutions Limited ?</Heading>
-            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
-          </CardHeader>
-          <CardBody>
-            <Text>Comprehensive and Integrated: Our ERP system covers a wide range of modules, allowing organizations to consolidate their operations into a single unified platform.</Text>
-          </CardBody>
-          
-        </Card>
-        <Card align='center'>
-          <CardHeader>
-            <Heading size='md'>Scalable and Customizable:</Heading>
-          <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
-          </CardHeader>
-          <CardBody>
-            <Text>Our software is designed to accommodate the evolving needs of businesses and can be tailored to specific requirements.</Text>
-          </CardBody>
-          
-        </Card>
-        <Card align='center'>
-          <CardHeader>
-            <Heading size='md'>Industry Expertise: </Heading>
-            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
-          </CardHeader>
-          <CardBody>
-            <Text>We have extensive experience serving diverse industries, enabling us to provide industry-specific solutions that address unique challenges.</Text>
-          </CardBody>
-          
-        </Card>
-        <Card align='center'>
+        <div className="card text-sm-white" style={{width:'100%',height:'100%'}}>
+              <img src="https://tse3.mm.bing.net/th?id=OIP.y_r_YaAKVdbQcRm4yToBJwHaCE&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <div className="card-img-overlay">
+                  <h2 className="card-title" style={{ paddingTop:'0%',paddingRight:'28%',color: 'white', fontSize: '40px'}}>Why Choose Statify Solutions Limited ?</h2>
+                  <p className="card-text" style={{ paddingTop:'5%',color: 'white',paddingRight:'50%', fontSize: '20px' }}>Comprehensive and Integrated: Our ERP system covers a wide range of modules, allowing organizations to consolidate their operations into a single unified platform.</p>
+                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  {/* <a class="btn btn-primary" href="/" role="button">Discover More</a> */}
+              </div>
+              
+              </div>
+        
+        <div className="card text-sm-white" style={{width:'100%',height:'100%'}}>
+              <img src="https://tse4.mm.bing.net/th?id=OIP.bG1mNxesChU5uhw7BndayQHaCY&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <div className="card-img-overlay">
+                  <h2 className="card-title" style={{ paddingTop:'0%',paddingRight:'20%',color: 'black', fontSize: '40px'}}></h2>
+                  <p className="card-text" style={{ paddingTop:'5%',color: 'black',paddingLeft:'50%', fontSize: '20px' }}>Our software is designed to accommodate the evolving needs of businesses and can be tailored to specific requirements.</p>
+                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  {/* <a class="btn btn-primary" href="/" role="button">Discover More</a> */}
+              </div>
+              
+              </div>
+        
+        <div className="card text-sm-white" style={{width:'100%',height:'100%'}}>
+              <img src="https://tse4.mm.bing.net/th?id=OIP.pLsNeadSxLK66yMNbPJdQgHaDQ&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <div className="card-img-overlay">
+                  <h2 className="card-title" style={{ paddingTop:'0%',paddingLeft:'40%',color: 'black', fontSize: '40px'}}>Industry Expertise</h2>
+                  <p className="card-text" style={{ paddingTop:'5%',color: 'black',paddingLeft:'50%', fontSize: '20px' }}>We have extensive experience serving diverse industries, enabling us to provide industry-specific solutions that address unique challenges.</p>
+                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  {/* <a class="btn btn-primary" href="/" role="button">Discover More</a> */}
+              </div>
+              
+              </div>
+              <div className="card text-sm-white" style={{width:'100%',height:'100%'}}>
+              <img src="https://tse1.mm.bing.net/th?id=OIP.oshfRLsRv80UWRIt1AHm5gHaEK&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <div className="card-img-overlay">
+                  <h2 className="card-title" style={{ paddingTop:'0%',paddingLeft:'0%',paddingRight:'30%',color: 'black', fontSize: '40px'}}>User-Friendly Interface</h2>
+                  <p className="card-text" style={{ paddingTop:'5%',color: 'black',paddingLeft:'0%',paddingRight:'30%', fontSize: '20px' }}>We prioritize data security and employ advanced encryption and authentication mechanisms to protect sensitive business information.</p>
+                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  {/* <a class="btn btn-primary" href="/" role="button">Discover More</a> */}
+              </div>
+              
+              </div>
+              <div className="card text-sm-white" style={{width:'100%',height:'100%'}}>
+              <img src="https://tse2.mm.bing.net/th?id=OIP.qNMYLYhUNRRQ3-Q0Gh4xoAHaEK&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <div className="card-img-overlay">
+                  <h2 className="card-title" style={{ paddingTop:'10%',paddingLeft:'0%',color: 'white', fontSize: '40px'}}>Robust Security</h2>
+                  <p className="card-text" style={{ paddingTop:'5%',color: 'white',paddingLeft:'0%', fontSize: '20px' }}>We prioritize data security and employ advanced encryption and authentication mechanisms to protect sensitive business information</p>
+                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  {/* <a class="btn btn-primary" href="/" role="button">Discover More</a> */}
+              </div>
+              
+              </div>
+              <div className="card text-sm-white" style={{width:'100%',height:'100%'}}>
+              <img src="https://tse1.mm.bing.net/th?id=OIP.WqDtBgNKP15AlfgpJuCi1gHaCw&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <div className="card-img-overlay">
+                  <h2 className="card-title" style={{ paddingTop:'0%',paddingLeft:'40%',color: 'black', fontSize: '40px'}}>Dedicated Support</h2>
+                  <p className="card-text" style={{ paddingTop:'0%',color: 'black',paddingLeft:'50%', fontSize: '20px' }}>Our team of experienced professionals provides dedicated support throughout the implementation and maintenance of our ERP system, ensuring a smooth and successful deployment.</p>
+                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  {/* <a class="btn btn-primary" href="/" role="button">Discover More</a> */}
+              </div>
+              
+              </div>
+        
+        {/* <Card align='center'>
           <CardHeader>
             <Heading size='md'>User-Friendly Interface: </Heading>
-            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.CLQ-fRcSb0cz7YbxaViKXwHaFC&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
           </CardHeader>
           <CardBody>
             <Text>Our ERP software features an intuitive anduser-friendly interface, ensuring ease of use and minimal training requirements.</Text>
           </CardBody>
           
-        </Card>
-        <Card align='center'>
+        </Card> */}
+        {/* <Card align='center'>
           <CardHeader>
             <Heading size='md'>Robust Security:</Heading>
-            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+            <img src="https://tse2.mm.bing.net/th?id=OIP.XZUaltTEZXpTBjNfmpqO9AHaDL&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
           </CardHeader>
           <CardBody>
             <Text>We prioritize data security and employ advanced encryption and authentication mechanisms to protect sensitive business information.</Text>
           </CardBody>
           
-        </Card>
-        <Card align='center'>
+        </Card> */}
+        {/* <Card align='center'>
           <CardHeader>
             <Heading size='md'>Dedicated Support:</Heading>
-            <img src="https://tse1.explicit.bing.net/th?id=OIP.w-CXp7fBEeH8csGwolOgIAHaE7&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.WqDtBgNKP15AlfgpJuCi1gHaCw&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
           </CardHeader>
           <CardBody>
-            <Text>Our team of experienced professionals provides dedicated support throughout the implementation and maintenance of our ERP system, ensuring a smooth and successful deployment.</Text>
+            <Text></Text>
           </CardBody>
           
-        </Card>
+        </Card> */}
     </div>
   );
 };

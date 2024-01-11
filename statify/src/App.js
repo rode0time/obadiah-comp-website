@@ -16,6 +16,7 @@ import Payroll from './components/Payroll';
 import Hr from './components/Hr';
 import Manufacture from './components/Manufacture';
 import OurTeam from './components/OurTeam';
+import Models from './components/models';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <Route path="/hr" element={<Hr />} />
             <Route path="/manufacture" element={<Manufacture/>}/>
             <Route path="/ourteam" element={<OurTeam/>}/>
+            <Route path="/models" element={<Models/>}/>
           </Routes>
         {/* </Container> */}
         <Footer />

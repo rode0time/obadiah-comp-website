@@ -60,67 +60,7 @@ const headerStyle = {
   return (
     <div className="homepage">
    
-      {/* <p>
-        Statify Solutions Limited is a provider of comprehensive and integrated
-        Enterprise Resource Planning (ERP) systems. With a strong focus on
-        innovation and customer satisfaction, our company offers a wide range of
-        ERP solutions that cater to diverse industries and business needs. 
-      </p> */}
-      {/* <List spacing={3}>
-          <ListItem>
-            <MdCheckCircle/>
-            <ListIcon as={MdCheckCircle}  color='green.200' />
-            Finance and accounting
-          </ListItem>
-          <ListItem>
-            <ListIcon  color='green.500' />
-            HR and payroll
-          </ListItem>
-          <ListItem>
-            <ListIcon color='green.500' />
-            Loan management
-          </ListItem>
-         
-          <ListItem>
-            <ListIcon  color='green.500' />
-            Education
-          </ListItem>
-          <ListItem>
-            <ListIcon  color='green.500' />
-            Health
-          </ListItem>
-          <ListItem>
-            <ListIcon  color='green.500' />
-            Manufacturing
-          </ListItem>
-          <ListItem>
-            <ListIcon  color='green.500' />
-            Point of sale (POS)
-          </ListItem>
-          <ListItem>
-            <ListIcon color='green.500' />
-            Fleet management
-          </ListItem>
-          <ListItem>
-            <ListIcon  color='green.500' />
-            Data analytics
-          </ListItem>
-        </List> */}
-      {/* <ul>
-        <li>Finance and accounting</li>
-        <li>HR and payroll</li>
-        <li>Loan management</li>
-        <li>Education</li>
-        <li>Health</li>
-        <li>Manufacturing</li>
-        <li>Point of sale (POS)</li>
-        <li>Fleet management</li>
-        <li>Data analytics</li>
-      </ul> */}
-      {/* <AspectRatio   ratio={25 / 5}>
-        <Image src='https://tse1.mm.bing.net/th?id=OIP.Q5OcKc6OVDA4I2WqEJQQBgHaDP&pid=Api&P=0&h=220' alt='ICT' objectFit='cover' />
-        
-      </AspectRatio> */}
+      
       <div className="card text-bg-white">
           <img src="https://dynasoft.co.ke/wp-content/uploads/2020/02/dynasoft-business-banner.jpg?id=11503" className="card-img" alt="..."/>
           <div className="card-img-overlay">
@@ -135,165 +75,8 @@ const headerStyle = {
       
 
       <h2 style={headerStyle}>Our Solutions</h2>
-      {/* <div>
-        <h3>Data Analysis using Power BI</h3>
-        <p>
-          We help businesses leverage the power of data by providing data
-          analysis services using Microsoft Power BI. Our experts analyze data,
-          create interactive visualizations, and develop insightful reports to
-          enable data-driven decision-making.
-        </p>
-      </div>
-
-      <div>
-        <h3>ERPNext System Implementation</h3>
-        <p>
-          We offer end-to-end implementation services for ERPNext, an open-source
-          enterprise resource planning (ERP) solution. Our team ensures a seamless
-          integration of ERPNext into your business processes, enabling efficient
-          management of operations, inventory, sales, and more.
-        </p>
-      </div>
-
-      <div>
-        <h3>Microsoft Dynamics 365 Implementation</h3>
-        <p>
-          As certified Microsoft partners, we specialize in implementing
-          Microsoft Dynamics 365, a comprehensive suite of business applications.
-          We tailor the system to your unique requirements, providing seamless
-          integration across departments, including finance, sales, customer service,
-          and operations.
-        </p>
-      </div>
-
-      <div>
-        <h3>Support and Consultation</h3>
-        <p>
-          Our dedicated support team is available to assist you with technical
-          issues, system maintenance, and troubleshooting. We also provide
-          consultation services to help optimize your IT infrastructure, enhance
-          system performance, and align technology with your business goals.
-        </p>
-      </div>
-
-      <div>
-        <h3>Business Analysis</h3>
-        <p>
-          Our skilled business analysts work closely with clients to understand
-          their specific needs, challenges, and opportunities. We perform
-          comprehensive business analysis, identify areas for improvement, and
-          recommend strategic solutions to drive growth and efficiency.
-        </p>
-      </div> */}
-      {/* <div style={{backgroundIMmage: 'cover',backgroundImage:'no repeat',backgroundImage:`url('https://tse3.mm.bing.net/th?id=OIP.S1dlDq1gwy7tTESZNs0K4AHaDb&pid=Api&P=0&h=220')`}}>
-      <div style={{paddingLeft:'0%'}}>
-      <div class="card mb-3" style={{maxWidth: '540px'}}>
-          <div class="row g-0">
-              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
-                  <img src="https://tse2.mm.bing.net/th?id=OIP.SH9mW-QgXZFHxlIU8YWTTAHaEK&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
-              </div>
-              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
-                  <div class="card-body">
-                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Data Analysis using Power BI</h5>
-                      <p class="card-text" style={{color: 'white'}}>We help businesses leverage the power of data by providing data analysis services using Microsoft Power BI. Our experts analyze data, create interactive visualizations, and develop insightful reports to enable data-driven decision-making.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>
-      <div style={{paddingRight:'0%'}}>
-      <div class="card mb-3" style={{maxWidth: '540px'}}>
-          <div class="row g-0">
-              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
-                  <img src="" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
-              </div>
-              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
-                  <div class="card-body">
-                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>ERPNext System Implementation</h5>
-                      <p class="card-text" style={{color: 'white'}}>We help businesses leverage the power of data by providing data analysis services using Microsoft Power BI. Our experts analyze data, create interactive visualizations, and develop insightful reports to enable data-driven decision-making.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <div style={{paddingLeft:'0%'}}>
-      <div class="card mb-3" style={{maxWidth: '540px'}}>
-          <div class="row g-0">
-              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
-                  <img src="https://tse2.explicit.bing.net/th?id=OIP.MYmaGpLxM4D4eLjARbyVMgAAAA&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
-              </div>
-              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
-                  <div class="card-body">
-                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Microsoft Dynamics 365 Implementation</h5>
-                      <p class="card-text" style={{color: 'white'}}>We offer end-to-end implementation services for ERPNext, an open-source
-          enterprise resource planning (ERP) solution. Our team ensures a seamless
-          integration of ERPNext into your business processes, enabling efficient
-          management of operations, inventory, sales, and more.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>
-      <div style={{paddingRight:'0%'}}>
-      <div class="card mb-3" style={{maxWidth: '540px'}}>
-          <div class="row g-0">
-              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
-                  <img src="https://tse2.explicit.bing.net/th?id=OIP.MYmaGpLxM4D4eLjARbyVMgAAAA&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
-              </div>
-              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
-                  <div class="card-body">
-                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Microsoft Dynamics 365 Implementation</h5>
-                      <p class="card-text" style={{color: 'white'}}>We offer end-to-end implementation services for ERPNext, an open-source
-          enterprise resource planning (ERP) solution. Our team ensures a seamless
-          integration of ERPNext into your business processes, enabling efficient
-          management of operations, inventory, sales, and more.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>
-      <div style={{paddingLeft:'-0%'}}>
-      <div class="card mb-3" style={{maxWidth: '540px'}}>
-          <div class="row g-0">
-              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
-                  <img src="https://tse2.explicit.bing.net/th?id=OIP.MYmaGpLxM4D4eLjARbyVMgAAAA&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
-              </div>
-              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
-                  <div class="card-body">
-                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Microsoft Dynamics 365 Implementation</h5>
-                      <p class="card-text" style={{color: 'white'}}>We offer end-to-end implementation services for ERPNext, an open-source
-          enterprise resource planning (ERP) solution. Our team ensures a seamless
-          integration of ERPNext into your business processes, enabling efficient
-          management of operations, inventory, sales, and more.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>
-      <div style={{paddingRight:'-0%'}}>
-      <div class="card mb-3" style={{maxWidth: '540px'}}>
-          <div class="row g-0">
-              <div class="col-md-4" style={{ width: '30%', height: '300%'}}>
-                  <img src="https://tse2.mm.bing.net/th?id=OIP.VEzlDn5JbGT_wubiqC_fMwHaEK&pid=Api&P=0&h=220" class="img-fluid rounded-start" alt="..." style={{width: '100%', height: 'auto'}}/>
-              </div>
-              <div class="col-md-8" style={{backgroundColor:'#1f8787'}}>
-                  <div class="card-body">
-                      <h5 class="card-title" style={{backgroundColor:'#1f8787'}}>Data Analysis using Power BI</h5>
-                      <p class="card-text" style={{color: 'white'}}>We help businesses leverage the power of data by providing data analysis services using Microsoft Power BI. Our experts analyze data, create interactive visualizations, and develop insightful reports to enable data-driven decision-making.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      </div>
-      </div>
-      </div> */}
-
-      <SimpleGrid spacing={4}  templateColumns='repeat(auto-fill, minmax(150px ,1fr))'>
+     
+      <SimpleGrid spacing={6}  templateColumns='repeat(auto-fill, minmax(200px ,1fr))'>
         <Card>
       <Stack direction='column'>
         
@@ -343,22 +126,7 @@ const headerStyle = {
        </Stack>
        </Card>
       
-          {/* <Card backgroundColor={"blueviolet"}>
-            <CardHeader>
-              <Heading size='md'>Data Analysis using Power BI </Heading>
-            </CardHeader>
-            <CardBody>
-              <Text tyle={paragraphStyle}
-        onMouseOver={() => setHovered(true)}
-        onMouseOut={() => setHovered(false)}>We help businesses leverage the power of data by providing data
-          analysis services using Microsoft Power BI. Our experts analyze data,
-          create interactive visualizations, and develop insightful reports to
-          enable data-driven decision-making.</Text>
-            </CardBody>
-            <CardFooter>
-              <Button>View here</Button>
-            </CardFooter>
-          </Card> */}
+          
            <Card>
           <CardHeader>
               <Heading size='md'>ERPNext System Implementation </Heading>
@@ -406,29 +174,7 @@ const headerStyle = {
               </Box>
               </Stack>
             </Card> 
-          {/* <Card>
-            <CardHeader>
-              <Heading size='md'>ERPNext System Implementation </Heading>
-            </CardHeader>
-            <CardBody>
-            <Collapse startingHeight={18} in={show}>
-            We offer end-to-end implementation services for ERPNext, an open-source
-          enterprise resource planning (ERP) solution. Our team ensures a seamless
-          integration of ERPNext into your business processes, enabling efficient
-          management of operations, inventory, sales, and more.
-      </Collapse>
-      <Button size='sm' onClick={handleToggle} mt='1rem'>
-        Show {show ? 'Less' : 'More'}
-      </Button> */}
-              {/* <Text>We offer end-to-end implementation services for ERPNext, an open-source
-          enterprise resource planning (ERP) solution. Our team ensures a seamless
-          integration of ERPNext into your business processes, enabling efficient
-          management of operations, inventory, sales, and more.</Text> */}
-            {/* </CardBody> */}
-            {/* <CardFooter>
-              <Button>View here</Button>
-            </CardFooter> */}
-         {/* </Card> */}
+          
          <Card>
          <CardHeader>
               <Heading size='md'>Microsoft Dynamics 365 Implementation</Heading>
@@ -479,32 +225,8 @@ const headerStyle = {
           
             </Card>
          
-          {/* <Card>
-            <CardHeader>
-              <Heading size='md'>Microsoft Dynamics 365 Implementation</Heading>
-            </CardHeader>
-            <CardBody>
-              <Text>As certified Microsoft partners, we specialize in implementing
-          Microsoft Dynamics 365, a comprehensive suite of business applications.
-          We tailor the system to your unique requirements, providing seamless
-          integration across departments, including finance, sales, customer service,
-          and operations.</Text>
-            </CardBody>
-            <CardFooter>
-              <Button>View here</Button>
-            </CardFooter>
-          </Card> */}
-          {/* <Button
-              
-             
           
-              onClick={() => {
-                setOverlay(<OverlayOne />)
-                onOpen()
-              }}
-            >
-              Business Analysis
-            </Button> */}
+          
              <Card>
              <CardHeader>
               <Heading size='md'>Support and Consultation</Heading>
@@ -551,38 +273,9 @@ const headerStyle = {
               </Box>
               </Stack>
             </Card>
-          {/* <Card>
-            <CardHeader>
-              <Heading size='md'>Support and Consultation</Heading>
-            </CardHeader>
-            <CardBody>
-              <Text >Our dedicated support team is available to assist you with technical
-          issues, system maintenance, and troubleshooting. We also provide
-          consultation services to help optimize your IT infrastructure, enhance
-          system performance, and align technology with your business goals.</Text>
-            </CardBody>
-            <CardFooter>
-              <Button>View here</Button>
-            </CardFooter>
-          </Card> */}
-          {/* <CardBody>
-          <Image
-              src='https://statify.co.ke/Images/christin-hume-mfB1B1s4sMc-unsplash.jpg'
-              alt='Green double couch with wooden legs'
-              borderRadius='lg'
-            />
-          </CardBody> */}
-          {/* <Button
-              
-             
           
-              onClick={() => {
-                setOverlay(<OverlayOne />)
-                onOpen()
-              }}
-            >
-              Business Analysis
-            </Button> */}
+          
+         
             
             <Card>
             <CardHeader>
@@ -632,51 +325,12 @@ const headerStyle = {
               </Stack>
             </Card>
 
-          {/* <Card>
-            <CardHeader>
-              <Heading size='md'>Business Analysis</Heading>
-            </CardHeader>
-            <CardBody>
-              <Text>Our skilled business analysts work closely with clients to understand
-          their specific needs, challenges, and opportunities. We perform
-          comprehensive business analysis, identify areas for improvement, and
-          recommend strategic solutions to drive growth and efficiency.</Text>
-            </CardBody>
-            <CardFooter>
-              <Button>View here</Button>
-            </CardFooter>
-          </Card> */}
+          
         </SimpleGrid>
       <h2>Our Involvement</h2>
-      {/* <div>
-        <h3>ICT Consultancy</h3>
-        <p>
-          With a deep understanding of technology trends and business processes,
-          we provide strategic recommendations that empower organizations to make
-          informed decisions about their IT infrastructure and operations.
-        </p>
-      </div>
-
-      <div>
-        <h3>Software Development</h3>
-        <p>
-          We have strong collaboration among cross-functional teams, with a deep
-          understanding of user needs, adherence to best practices, and commitment
-          to delivering high-quality, reliable, and scalable software solutions.
-        </p>
-      </div>
-
-      <div>
-        <h3>ERPNext Implementation</h3>
-        <p>
-          We have a thorough understanding of the organization's business processes
-          and can configure the software to align with these processes. Our ERPNext
-          consultants or experts have experience with the platform, ensuring
-          successful implementation.
-        </p>
-      </div> */}
-      <SimpleGrid spacing={6}  templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
-      <Card >
+      
+      <SimpleGrid spacing={6}  templateColumns='repeat(auto-fill, minmax(250px, 1fr))'>
+      <Card maxW='md' >
             <CardBody>
               <Image
                 src='https://statify.co.ke/Images/christin-hume-mfB1B1s4sMc-unsplash.jpg'
@@ -796,44 +450,16 @@ const headerStyle = {
           </Card>
         </SimpleGrid> 
       <h2>Modules</h2>
-      {/* <Box position='relative' padding='10' color='black'>
-        <Divider />
-        <AbsoluteCenter bg='white' px='10' >
-        Modules
-        </AbsoluteCenter>
-      </Box>
-      <Box */}
+      
         
       
-      {/* <ul>
-        <li>Finance Management</li>
-        <li>HR Management</li>
-        <li>Payroll Finance Management</li>
-        <li>Manufacturing</li>
-        <li>Warehouse Management</li>
-        <li>Loans Management</li>
-        <li>Education Management</li>
-        <li>Health Management</li>
-        <li>Project Management</li>
-        <li>Dairy Management</li>
-        <li>POS</li>
-      </ul> */}
-     {/* <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button> */}
-            {/* <div class="card" style={{width: '18rem'}}>
-              <div class="card-body">
-                <h5 class="card-title"style={{backgroundColor:'#ffc107'}}>Finance Management</h5> */}
-                {/* <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> */}
-                {/* <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
-                {/* <a href="#" class="card-link">Card link</a> */}
-                {/* <a href="/product" class="card-link">Read More</a>
-              </div>
-              
-            </div> */}
+      
+     
             <div className="card text-sm-white" style={{width:'100%',height:'200%'}}>
               <img src="https://tse4.mm.bing.net/th?id=OIP.mO9NrgO50YSKyVnvgIf9ZQHaE7&pid=Api&P=0&h=220" className="card-img" alt="..."/>
               <div className="card-img-overlay">
                   <h2 className="card-title" style={{ paddingTop:'5%',paddingLeft:'10%',color: '#ffc107', fontSize: '40px'}}>Discover Erp Modules With Us.</h2>
-                  <p className="card-text" style={{ paddingTop:'5%',color: 'white', fontSize: '20px' }}>As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.
+                  <p className="card-text" style={{ paddingTop:'5%',color: '#ffc107', fontSize: '20px' }}>As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.
 
                 Engagement Details:
                 Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.</p>
@@ -842,12 +468,8 @@ const headerStyle = {
               </div>
               
               </div>
-          {/* <Text noOfLines={[1, 2, 3]}>
-          As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.
-
-            Engagement Details:
-            Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.
-          </Text> */}
+         
+         
             <SimpleGrid spacing={2} templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
               <Card size='sm'>
               <img src="https://tse1.mm.bing.net/th?id=OIP.zVvguAa2jFGOBEECtu4JkgHaE8&pid=Api&P=0&h=220" className="card-img" alt="..."/>
@@ -859,7 +481,7 @@ const headerStyle = {
                 </CardBody>
                 <CardFooter>
                   
-                <a href="/erpnext" class="card-link">Read More →</a>
+                <a href="/models" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -871,7 +493,7 @@ const headerStyle = {
                   <Text>Manage full employee life cycle right from onboarding...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/hr" class="card-link">Read More →</a>
+                <a href="/models" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -883,7 +505,7 @@ const headerStyle = {
                   <Text></Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/payroll" class="card-link">Read More →</a>
+                <a href="/models" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -892,10 +514,10 @@ const headerStyle = {
                   <Heading size='md'>Manufacturing</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Elevate your manufacturing capabilities with our ...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/manufacture" class="card-link">Read More →</a>
+                <a href="/models" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -904,10 +526,10 @@ const headerStyle = {
                   <Heading size='md'>Warehouse Management</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Take control of your inventory Management...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More →</a>
+                <a href="/nodels" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -919,7 +541,7 @@ const headerStyle = {
                   <Text>Our ERP system includes a feature-rich loan management...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More →</a>
+                <a href="/models" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -931,7 +553,7 @@ const headerStyle = {
                   <Text>Our ERP system provides a holistic health management...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More → </a>
+                <a href="/models" class="card-link">Read More → </a>
                 </CardFooter>
               </Card>
               <Card>
@@ -943,7 +565,7 @@ const headerStyle = {
                   <Text>Deliver both internal and external projects on time... </Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More →</a>
+                <a href="/models" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -952,10 +574,10 @@ const headerStyle = {
                   <Heading size='md'>Dairy Management</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Tailored for the dairy industry, our Dairy Management solution...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More →</a>
+                <a href="/models" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
               <Card>
@@ -967,101 +589,40 @@ const headerStyle = {
                   <Text>Our ERP system incorporates a feature-rich POS module...</Text>
                 </CardBody>
                 <CardFooter>
-                <a href="/product" class="card-link">Read More →</a>
+                <a href="/models" class="card-link">Read More →</a>
                 </CardFooter>
               </Card>
             </SimpleGrid>
-      {/* <Wrap spacing='30px' justify='center'>
-            {/* <WrapItem>
-              <Center w='180px' h='80px' bg='red.200'>
-              Finance Management
-              </Center>
-            </WrapItem> */}
-            
-            {/* <WrapItem>
-              <Center w='180px' h='80px' bg='green.200'>
-              HR Management
-              </Center>
-            </WrapItem>
-            <WrapItem>
-              <Center w='120px' h='80px' bg='tomato'>
-              Payroll Finance Management
-              </Center>
-            </WrapItem>
-            <WrapItem>
-              <Center w='180px' h='80px' bg='blue.200'>
-              Manufacturing
-              </Center>
-            </WrapItem>
-            <WrapItem>
-              <Center w='180px' h='80px' bg='green.200'>
-              Warehouse Management
-              </Center>
-            </WrapItem>
-            <WrapItem>
-              <Center w='180px' h='80px' bg='teal.200'>
-              Loans Management
-              </Center>
-            </WrapItem>
-            <WrapItem>
-              <Center w='180px' h='80px' bg='yellow.200'>
-              Health Management
-              </Center>
-            </WrapItem>
-            <WrapItem>
-              <Center w='180px' h='80px' bg='green.200'>
-              Project Management
-              </Center>
-            </WrapItem>
-
-            <WrapItem>
-              <Center w='180px' h='80px' bg='yellow.200'>
-              Dairy Management
-              </Center>
-            </WrapItem>
-
-            <WrapItem>
-              <Center w='180px' h='80px' bg='green.200'>
-              POS
-              </Center>
-            </WrapItem>
-          </Wrap>
-       */} 
+      
       <h4>Our Partners/Technologies</h4>
-      {/* <div className="partners">
-        <img src="https://statify.co.ke/Images/Erpnextimages.png" alt="ERPNext" />
-        <img src="https://statify.co.ke/Images/powerBI_partner.png" alt="PowerBI" />
-        <img src="https://statify.co.ke/Images/azure_partner.png" alt="Microsoft Azure" />
-        <img src="https://statify.co.ke/Images/office365_partner.png" alt="Office365" />
-        <img src="https://statify.co.ke/Images/Microsoft%20partner.png" alt="Microsoft Partner" />
-      </div> */}
-      <SimpleGrid spacing={2}  templateColumns='repeat(auto-fill, minmax(150px, 1fr))'>
+      
+      <SimpleGrid spacing={4}  templateColumns='repeat(auto-fill, minmax(200px, 1fr))'>
       <Image
-          borderRadius='full'
+         
           boxSize='150px'
           src='https://statify.co.ke/Images/Erpnextimages.png'
           alt='ERPNext"'
         />
         <Image
-          borderRadius='full'
+         
           boxSize='150px'
           src='https://statify.co.ke/Images/powerBI_partner.png'
           alt='PowerBI'
         />
         <Image
-          borderRadius='full'
+          
           boxSize='150px'
           src='https://statify.co.ke/Images/office365_partner.png'
           alt='Microsoft Azure'
         />
         <Image
-          borderRadius='full'
+          
           boxSize='150px'
           src='https://statify.co.ke/Images/azure_partner.png'
           alt='Office365'
         />
         <Image
-        borderRadius='full'
+        
         boxSize='150px'
         src='https://statify.co.ke/Images/Microsoft%20partner.png'
         alt='Microsoft Partner'
