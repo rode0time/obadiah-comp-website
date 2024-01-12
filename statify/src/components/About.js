@@ -134,17 +134,17 @@ const AboutUs = () => {
               
               </div>
               <div className="card text-sm-white" style={{width:'100%',height:'100%'}}>
-              <img src="https://tse2.mm.bing.net/th?id=OIP.qNMYLYhUNRRQ3-Q0Gh4xoAHaEK&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <img src="https://tse3.mm.bing.net/th?id=OIP.27JTKoPpKmVs6Jkj9fHWKwHaCe&pid=Api&P=0&h=220" className="card-img" alt="..."/>
               <div className="card-img-overlay">
-                  <h2 className="card-title" style={{ paddingTop:'10%',paddingLeft:'0%',color: 'white', fontSize: '40px'}}>Robust Security</h2>
-                  <p className="card-text" style={{ paddingTop:'5%',color: 'white',paddingLeft:'0%', fontSize: '20px' }}>We prioritize data security and employ advanced encryption and authentication mechanisms to protect sensitive business information</p>
+                  <h2 className="card-title" style={{ paddingTop:'0%',paddingRight:'30%',color: 'black', fontSize: '40px'}}>Robust Security</h2>
+                  <p className="card-text" style={{ paddingTop:'5%',color: 'black',paddingRight:'30%', fontSize: '20px' }}>We prioritize data security and employ advanced encryption and authentication mechanisms to protect sensitive business information</p>
                   {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
                   {/* <a class="btn btn-primary" href="/" role="button">Discover More</a> */}
               </div>
               
               </div>
               <div className="card text-sm-white" style={{width:'100%',height:'100%'}}>
-              <img src="https://tse1.mm.bing.net/th?id=OIP.WqDtBgNKP15AlfgpJuCi1gHaCw&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <img src="https://tse2.mm.bing.net/th?id=OIP.seNk6KEiynstslmWgqCMngHaCi&pid=Api&P=0&h=220" className="card-img" alt="..."/>
               <div className="card-img-overlay">
                   <h2 className="card-title" style={{ paddingTop:'0%',paddingLeft:'40%',color: 'black', fontSize: '40px'}}>Dedicated Support</h2>
                   <p className="card-text" style={{ paddingTop:'0%',color: 'black',paddingLeft:'50%', fontSize: '20px' }}>Our team of experienced professionals provides dedicated support throughout the implementation and maintenance of our ERP system, ensuring a smooth and successful deployment.</p>
@@ -154,36 +154,9 @@ const AboutUs = () => {
               
               </div>
         
-        {/* <Card align='center'>
-          <CardHeader>
-            <Heading size='md'>User-Friendly Interface: </Heading>
-            <img src="https://tse1.mm.bing.net/th?id=OIP.CLQ-fRcSb0cz7YbxaViKXwHaFC&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
-          </CardHeader>
-          <CardBody>
-            <Text>Our ERP software features an intuitive anduser-friendly interface, ensuring ease of use and minimal training requirements.</Text>
-          </CardBody>
-          
-        </Card> */}
-        {/* <Card align='center'>
-          <CardHeader>
-            <Heading size='md'>Robust Security:</Heading>
-            <img src="https://tse2.mm.bing.net/th?id=OIP.XZUaltTEZXpTBjNfmpqO9AHaDL&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
-          </CardHeader>
-          <CardBody>
-            <Text>We prioritize data security and employ advanced encryption and authentication mechanisms to protect sensitive business information.</Text>
-          </CardBody>
-          
-        </Card> */}
-        {/* <Card align='center'>
-          <CardHeader>
-            <Heading size='md'>Dedicated Support:</Heading>
-            <img src="https://tse1.mm.bing.net/th?id=OIP.WqDtBgNKP15AlfgpJuCi1gHaCw&pid=Api&P=0&h=220" class="card-img-top" alt="..."/>
-          </CardHeader>
-          <CardBody>
-            <Text></Text>
-          </CardBody>
-          
-        </Card> */}
+        
+        
+        
     </div>
   );
 };

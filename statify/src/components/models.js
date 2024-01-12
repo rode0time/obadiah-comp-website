@@ -5,9 +5,8 @@ function Models(){
     return(
         <div>
             <div>
-            {/* <img src="https://tse1.explicit.bing.net/th?id=OIP.LfjBXIJUquoTbo8HLOsTAwHaDi&pid=Api&P=0&h=220" class="card-img-top" alt="..." style={{maxWidth: '100%' ,height: 'auto'}} /> */}
-            {/* <h1>MODELS</h1> */}
-            <Text fontSize='4xl' as='mark'>MODULES</Text>
+            <h1 style={{backgroundColor:'#ffc107',color:'white'}}>MODULES</h1>
+            {/* <Text fontSize='4xl' as='mark'>MODULES</Text> */}
             </div>
 
 

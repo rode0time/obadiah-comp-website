@@ -9,6 +9,10 @@ const Navbar = () => {
     <div>
       {/* <h5>get in touch tel: 07228732301</h5> */}
       <nav className="navbar">
+        <h6 style={{color:'white'}}>NEED HELP? TALK TO AN EXPERT  +254796 265 933</h6><h6>Follow Us:<a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/your-twitter-account" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
+    <a href="https://www.instagram.com/your-instagram-account" target="_blank" rel="noopener noreferrer"><i className="fa fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a></h6>
         <div className="container">
           <div className="logo">
           
@@ -32,16 +36,16 @@ const Navbar = () => {
                 Product
               </Link>
               <div className="dropdown-content">
-                <Link to="#ERPNext">ERPNext</Link>
-                <Link to="#Microsoft Dynamics 365">Microsoft Dynamics 365</Link>
-                <Link to="#Microsoft Dynamics NAV ">Microsoft Dynamics NAV</Link>
-                <Link to="#Microsoft Dynamics CRM ">Microsoft Dynamics CRM</Link>
-                <Link to="#ERPNext"> Microsoft Office  365</Link>
-                <Link to="#Microsoft Azure ">Microsoft Azure</Link>
-                <Link to="#Microsoft Sharepoint ">Microsoft Sharepoint</Link>
-                
-                <Link to="#Power BI">Microsoft Power BI</Link>
+                <Link to="/ERPNext" style={{ fontSize: '10px' }}>ERPNext</Link>
+                <Link to="/Microsoft365" style={{ fontSize: '10px' }}>Microsoft Dynamics 365</Link>
+                <Link to="/MicrosoftNav" style={{ fontSize: '10px' }}>Microsoft Dynamics NAV</Link>
+                <Link to="/MicrosoftCRM" style={{ fontSize: '10px' }}>Microsoft Dynamics CRM</Link>
+                <Link to="#ERPNext" style={{ fontSize: '10px' }}>Microsoft Office 365</Link>
+                <Link to="#Microsoft Azure" style={{ fontSize: '10px' }}>Microsoft Azure</Link>
+                <Link to="#Microsoft Sharepoint" style={{ fontSize: '10px' }}>Microsoft Sharepoint</Link>
+                <Link to="#Power BI" style={{ fontSize: '10px' }}>Microsoft Power BI</Link>
               </div>
+
             
             </li>
             <li className="dropdown">
@@ -49,11 +53,11 @@ const Navbar = () => {
                 Services
               </Link>
               <div className="dropdown-content">
-                <Link to="#ERP Implementation">ERP Implementation & Support</Link>
-                
-                <Link to="#Data Analysis">Data Analysis</Link>
-                <Link to="#Power BI ">Power BI</Link>
+                <Link to="#ERP Implementation" style={{ fontSize: '10px' }}>ERP Implementation & Support</Link>
+                <Link to="#Data Analysis" style={{ fontSize: '10px' }}>Data Analysis</Link>
+                <Link to="#Power BI" style={{ fontSize: '10px' }}>Power BI</Link>
               </div>
+
             
             </li>
 

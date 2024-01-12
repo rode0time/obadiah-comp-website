@@ -66,7 +66,7 @@ const headerStyle = {
           <div className="card-img-overlay">
               <h2 className="card-title" style={{ color: '#1f8787', fontSize: '35px',paddingLeft:'30%' }}>Discover unparalleled system consulting and implementation solutions with us.</h2>
               <p className="card-text" style={{ color: 'black', fontSize: '20px',paddingLeft:'38%' }}>Our comprehensive services cover the entire spectrum, from design and development to training, deployment, and ongoing support for business applications. Tailored to address the unique business requirements and customer challenges of our clients, our offerings ensure a seamless and effective integration of cutting-edge solutions for your success.</p>
-              {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+              
           </div>
       </div>
 
@@ -75,6 +75,19 @@ const headerStyle = {
       
 
       <h2 style={headerStyle}>Our Solutions</h2>
+      <div className="card text-sm-white" style={{width:'100%',height:'200%'}}>
+              <img src="https://tse4.mm.bing.net/th?id=OIP.811J3H-oXPwBdW8ArldmcAHaB3&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <div className="card-img-overlay">
+                  <h2 className="card-title" style={{ paddingTop:'0%',paddingLeft:'10%',color: '#ffc107', fontSize: '40px'}}>Discover Solutions With Us.</h2>
+                  <p className="card-text" style={{ paddingTop:'0%',color: '#ffc107', fontSize: '20px' }}>As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.
+
+                Engagement Details:
+                Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.</p>
+                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  <a class="btn btn-primary" href="/models" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
+              </div>
+              
+              </div>
      
       <SimpleGrid spacing={6}  templateColumns='repeat(auto-fill, minmax(200px ,1fr))'>
         <Card>
@@ -456,7 +469,7 @@ const headerStyle = {
       
      
             <div className="card text-sm-white" style={{width:'100%',height:'200%'}}>
-              <img src="https://tse4.mm.bing.net/th?id=OIP.mO9NrgO50YSKyVnvgIf9ZQHaE7&pid=Api&P=0&h=220" className="card-img" alt="..."/>
+              <img src="https://tse3.mm.bing.net/th?id=OIP.uERZcgzuCZrDemwCKP_nVgHaC3&pid=Api&P=0&h=220" className="card-img" alt="..."/>
               <div className="card-img-overlay">
                   <h2 className="card-title" style={{ paddingTop:'5%',paddingLeft:'10%',color: '#ffc107', fontSize: '40px'}}>Discover Erp Modules With Us.</h2>
                   <p className="card-text" style={{ paddingTop:'5%',color: '#ffc107', fontSize: '20px' }}>As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.
@@ -464,7 +477,7 @@ const headerStyle = {
                 Engagement Details:
                 Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.</p>
                   {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
-                  <a class="btn btn-primary" href="/" role="button">Discover More</a>
+                  <a class="btn btn-primary" href="/models" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
               </div>
               
               </div>

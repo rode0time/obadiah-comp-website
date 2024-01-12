@@ -1,76 +1,79 @@
-/* .contact-page {
-    text-align: center;
-    margin: 50px;
-    background-image: url('https://media.istockphoto.com/id/1414916304/photo/sustainable-development-goal-concept-hands-holding-global-communication-network-with.jpg?s=1024x1024&w=is&k=20&c=2C-Ne40aowl68yOQ5Eh5RNdUrAjPZldzpXxSM3_lUrI=');
+* {
+  box-sizing: border-box;
 }
 
-h1 {
-    color: #333;
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
-  
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: 0 auto;
-}
-  
-label {
-    margin-bottom: 8px;
-}
-  
-input,
-  textarea {
-    padding: 8px;
-    margin-bottom: 16px;
-}
-  
-button {
-    padding: 10px;
-    background-color: #007bff;
-    color: #928e8e;
-    border: none;
-    cursor: pointer;
-}
-   */
-/* Contact.css */
 
-/* .contact-page {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-image: url('https://media.istockphoto.com/id/1414916304/photo/sustainable-development-goal-concept-hands-holding-global-communication-network-with.jpg?s=1024x1024&w=is&k=20&c=2C-Ne40aowl68yOQ5Eh5RNdUrAjPZldzpXxSM3_lUrI=');
+input[type="submit"] {
+  background-color: #04AA6D;
+  color: rgb(20, 7, 7);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  /* background-image: url('https://tse3.mm.bing.net/th?id=OIP.kuQCpvduIszCrRC3tCw6_wHaCp&pid=Api&P=0&h=220'); */
+   
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+/* Create two columns that float next to each other */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
   }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  .contact-info {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  
-  .contact-details {
-    flex: 1;
-  }
-  
-  .stakeholder {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .stakeholder img {
-    width: 100px; /* Adjust the size as needed */
-    /* border-radius: 50%; 
-  }
-  
-  form {
-    margin-top: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px; */
-  
+}
+
+/* Style the contact info section */
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+/* Style the icons */
+.contact-info svg {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Center align the contact info */

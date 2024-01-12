@@ -13,10 +13,13 @@ import { Container } from 'react-bootstrap'; // Import Container from react-boot
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ERPNext from './components/ERPNext';
 import Payroll from './components/Payroll';
-import Hr from './components/Hr';
+import Microsoft365 from './components/Microsoft365';
 import Manufacture from './components/Manufacture';
 import OurTeam from './components/OurTeam';
 import Models from './components/models';
+import MicrosoftNav from './components/MicrosoftNav';
+import MicrosoftCRM from './components/MicrosoftCRM';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -34,10 +37,13 @@ function App() {
             <Route path="/product" element={<Product />} />
             <Route path="/erpnext" element={<ERPNext />} />
             <Route path="/payroll" element={<Payroll />} />
-            <Route path="/hr" element={<Hr />} />
+            <Route path="/microsoft365" element={<Microsoft365 />} />
             <Route path="/manufacture" element={<Manufacture/>}/>
             <Route path="/ourteam" element={<OurTeam/>}/>
             <Route path="/models" element={<Models/>}/>
+            <Route path="/microsoftNav" element={<MicrosoftNav/>}/>
+            <Route path="/microsoftCRM" element={<MicrosoftCRM/>}/>
+            <Route path="/Services" element={<Services/>}/>
           </Routes>
         {/* </Container> */}
         <Footer />

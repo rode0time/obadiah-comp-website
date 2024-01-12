@@ -44,7 +44,7 @@ const Footer = () => {
           <div className="footer-section">
             <h3>Company</h3>
             <ul>
-              <li><a href="/aboutus">About Us</a></li>
+              {/* <li><a href="/aboutus">About Us</a></li> */}
               <li><a href="/technologies">Technologies</a></li>
               {/* <li><a href="/team">Our Team</a></li> */}
               <li><a href="/careers">Careers</a></li>
