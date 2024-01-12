@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Styles/Solution.css';
 
-const SolutionsPage = () => {
+const Solutions = () => {
  
   const solutions = [
     { id: 1, title: 'ERP Solutions', description: 'Comprehensive ERP solutions for businesses' },
@@ -25,4 +25,4 @@ const SolutionsPage = () => {
   );
 };
 
-export default SolutionsPage;
+export default Solutions;
