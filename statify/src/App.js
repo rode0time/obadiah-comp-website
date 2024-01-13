@@ -27,14 +27,14 @@ function App() {
       <ChakraProvider>
         <Navbar />
         
-        {/* <Container> Use the Container component from react-bootstrap */}
+        
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/footer" element={<Footer />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/solution" element={<Solution />} />
-            <Route path="/product" element={<Product />} />
+            <Route path="/products" element={<Product />} />
             <Route path="/erpnext" element={<ERPNext />} />
             <Route path="/payroll" element={<Payroll />} />
             <Route path="/microsoft365" element={<Microsoft365 />} />
@@ -45,7 +45,7 @@ function App() {
             <Route path="/microsoftCRM" element={<MicrosoftCRM/>}/>
             <Route path="/Services" element={<Services/>}/>
           </Routes>
-        {/* </Container> */}
+       
         <Footer />
       </ChakraProvider>
     </div>

@@ -7,7 +7,7 @@ const Solutions = () => {
     { id: 1, title: 'ERP Solutions', description: 'Comprehensive ERP solutions for businesses' },
     { id: 2, title: 'Cloud Services', description: 'Scalable and secure cloud computing services' },
     { id: 3, title: 'Consulting Services', description: 'Expert consulting to optimize your business processes' },
-    // Add more solutions as needed
+    
   ];
 
   return (

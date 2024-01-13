@@ -6,7 +6,7 @@ function Models(){
         <div>
             <div>
             <h1 style={{backgroundColor:'#ffc107',color:'white'}}>MODULES</h1>
-            {/* <Text fontSize='4xl' as='mark'>MODULES</Text> */}
+            
             </div>
 
 

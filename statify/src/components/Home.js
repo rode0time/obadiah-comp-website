@@ -31,7 +31,7 @@ const headerStyle = {
   fontFamily: 'Arial, sans-serif',
   borderBottom: '2px solid #ccc',
   padding: '5px 0',
-  cursor: 'pointer', // Optional: Add a cursor style for better user feedback
+  cursor: 'pointer', 
 };
 
   const [show, setShow] = React.useState(false)
@@ -83,7 +83,7 @@ const headerStyle = {
 
                 Engagement Details:
                 Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.</p>
-                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  
                   <a class="btn btn-primary" href="/models" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
               </div>
               
@@ -476,7 +476,7 @@ const headerStyle = {
 
                 Engagement Details:
                 Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.</p>
-                  {/* <p className="card-text"><small>Last updated 3 mins ago</small></p> */}
+                  
                   <a class="btn btn-primary" href="/models" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
               </div>
               

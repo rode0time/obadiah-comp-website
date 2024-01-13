@@ -2,18 +2,12 @@ import React from 'react';
 import '../Styles/Footer.css';
 import 'font-awesome/css/font-awesome.min.css';
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Alert } from 'react-bootstrap';
+
 
 const Footer = () => {
   return (
     <section className="footer">
-      {/* <h4>About Us</h4> */}
-      {/* <p>We are the best</p> */}
       
-
-      {/* Your existing code */}
       <footer className="footer">
         <div className="logo">
           <img src="https://statify.co.ke/Images/IMG-20230305-WA0043.jpg" alt="Company Logo" />
@@ -40,13 +34,13 @@ const Footer = () => {
               <li><a href="/services">Services</a></li>
             </ul>
           </div>
-          {/* Additional content */}
+          
           <div className="footer-section">
             <h3>Company</h3>
             <ul>
-              {/* <li><a href="/aboutus">About Us</a></li> */}
+             
               <li><a href="/technologies">Technologies</a></li>
-              {/* <li><a href="/team">Our Team</a></li> */}
+              
               <li><a href="/careers">Careers</a></li>
             </ul>
           </div>

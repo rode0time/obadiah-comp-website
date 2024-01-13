@@ -7,7 +7,7 @@ import "../Styles/Navbar.css";
 const Navbar = () => {
   return (
     <div>
-      {/* <h5>get in touch tel: 07228732301</h5> */}
+      
       <nav className="navbar">
         <h6 style={{color:'white'}}>NEED HELP? TALK TO AN EXPERT  +254796 265 933</h6><h6>Follow Us:<a href="https://www.facebook.com/your-facebook-page" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
     <a href="https://twitter.com/your-twitter-account" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
@@ -23,16 +23,16 @@ const Navbar = () => {
               className="logo"
               
             /></Link>
-            {/* <Link to="/">Statify</Link> */}
+           
           </div>
 
           <ul className="nav-links">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/aboutus">About Us</Link></li>
-            {/* <li><Link to="/product">Product</Link></li> */}
+         
             <li><Link to="/solution">Solution</Link></li>  
             <li className="dropdown">
-              <Link to="/product" className="dropbtn">
+              <Link to="/products" className="dropbtn">
                 Product
               </Link>
               <div className="dropdown-content">
