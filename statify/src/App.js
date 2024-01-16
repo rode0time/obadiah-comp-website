@@ -20,6 +20,10 @@ import Models from './components/models';
 import MicrosoftNav from './components/MicrosoftNav';
 import MicrosoftCRM from './components/MicrosoftCRM';
 import Services from './components/Services';
+import Support from './components/SupportConsultation';
+import ERPNextImplimentation from './components/ERPNextImplimentation';
+import MicrosoftDynamicsImplementation from './components/MicrosoftDynamicsImplementation';
+import Analysis from './components/DataAnalysis ';
 
 function App() {
   return (
@@ -44,6 +48,10 @@ function App() {
             <Route path="/microsoftNav" element={<MicrosoftNav/>}/>
             <Route path="/microsoftCRM" element={<MicrosoftCRM/>}/>
             <Route path="/Services" element={<Services/>}/>
+            <Route path="/support" element={<Support/>}/>
+            <Route path="/eRPNextImp" element={<ERPNextImplimentation/>}/>
+            <Route path="/micro" element={<MicrosoftDynamicsImplementation/>}/>
+            <Route path="/analysis" element={<Analysis/>}/>
           </Routes>
        
         <Footer />

@@ -53,9 +53,9 @@ const Navbar = () => {
                 Services
               </Link>
               <div className="dropdown-content">
-                <Link to="#ERP Implementation" style={{ fontSize: '10px' }}>ERP Implementation & Support</Link>
-                <Link to="#Data Analysis" style={{ fontSize: '10px' }}>Data Analysis</Link>
-                <Link to="#Power BI" style={{ fontSize: '10px' }}>Power BI</Link>
+                <Link to="/eRPNextImp" style={{ fontSize: '10px' }}>ERP Implementation & Support</Link>
+                <Link to="/analysis" style={{ fontSize: '10px' }}>Data Analysis</Link>
+                <Link to="/analysis" style={{ fontSize: '10px' }}>Power BI</Link>
               </div>
 
             

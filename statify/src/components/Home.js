@@ -78,18 +78,15 @@ const headerStyle = {
       <div className="card text-sm-white" style={{width:'100%',height:'200%'}}>
               <img src="https://tse4.mm.bing.net/th?id=OIP.811J3H-oXPwBdW8ArldmcAHaB3&pid=Api&P=0&h=220" className="card-img" alt="..."/>
               <div className="card-img-overlay">
-                  <h2 className="card-title" style={{ paddingTop:'0%',paddingLeft:'10%',color: '#ffc107', fontSize: '40px'}}>Discover Solutions With Us.</h2>
-                  <p className="card-text" style={{ paddingTop:'0%',color: '#ffc107', fontSize: '20px' }}>As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.
-
-                Engagement Details:
-                Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.</p>
+                  <h2 className="card-title" style={{ paddingTop:'0%',paddingLeft:'10%',color: '#ffc107', fontSize: '30px'}}>Discover Solutions With Us.</h2>
+                  <p className="card-text" style={{ paddingTop:'0%',color: '#ffc107', fontSize: '20px' }}>As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.</p>
                   
-                  <a class="btn btn-primary" href="/models" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
+                  <a class="btn btn-primary" href="/solution" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
               </div>
               
               </div>
      
-      <SimpleGrid spacing={6}  templateColumns='repeat(auto-fill, minmax(200px ,1fr))'>
+      <SimpleGrid spacing={6}  templateColumns='repeat(auto-fill, minmax(180px ,1fr))'>
         <Card>
       <Stack direction='column'>
         
@@ -108,7 +105,7 @@ const headerStyle = {
           mb={2}
         >
           <ButtonGroup gap='4'>
-          <Button
+          {/* <Button
               ml='6'
               onClick={() => {
                 setOverlay(<OverlayTwo />)
@@ -116,23 +113,21 @@ const headerStyle = {
               }}
             >
             READ MORE ... 
-            </Button>
-            <Modal isCentered isOpen={isOpen} onClose={onClose}>
+            </Button> */}
+            <a class="btn btn-primary" href="/analysis" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
+            {/* <Modal isCentered isOpen={isOpen} onClose={onClose}>
               {overlay}
               <ModalContent>
-                <ModalHeader as='h1'>Data Analysis using Power BI</ModalHeader>
+                <ModalHeader as='h1'></ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>
-                  <Text>We help businesses leverage the power of data by providing data
-          analysis services using Microsoft Power BI. Our experts analyze data,
-          create interactive visualizations, and develop insightful reports to
-          enable data-driven decision-making.</Text>
+                  <Text></Text>
                 </ModalBody>
                 <ModalFooter>
                   <Button onClick={onClose}>Close</Button>
                 </ModalFooter>
               </ModalContent>
-            </Modal> 
+            </Modal>  */}
             
            </ButtonGroup> 
         </Box>
@@ -157,32 +152,20 @@ const headerStyle = {
                 mb={2}
               >
                 <ButtonGroup gap='4'>
-                <Button
-              ml='4'
-              size='sm'
-              onClick={() => {
-                setOverlay(<OverlayTwo />)
-                onOpen()
-              }}
-            >
-               READ MORE ...
-            </Button>
-            <Modal isCentered isOpen={isOpen} onClose={onClose}>
+                <a class="btn btn-primary" href="/eRPNextImp" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
+            {/* <Modal isCentered isOpen={isOpen} onClose={onClose}>
               {overlay}
               <ModalContent>
                 <ModalHeader>ERPNext System Implementation </ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>
-                  <Text>We offer end-to-end implementation services for ERPNext, an open-source
-          enterprise resource planning (ERP) solution. Our team ensures a seamless
-          integration of ERPNext into your business processes, enabling efficient
-          management of operations, inventory, sales, and more.</Text>
+                  <Text></Text>
                 </ModalBody>
                 <ModalFooter>
                   <Button onClick={onClose}>Close</Button>
                 </ModalFooter>
               </ModalContent>
-            </Modal>
+            </Modal> */}
                 </ButtonGroup>
               </Box>
               </Stack>
@@ -205,17 +188,9 @@ const headerStyle = {
                 mb={2}
               >
                 <ButtonGroup gap='4'>
-                <Button
-              ml='4'
-              size='sm'
-              onClick={() => {
-                setOverlay(<OverlayTwo />)
-                onOpen()
-              }}
-            >
-               READ MORE ...
-            </Button>
-            <Modal isCentered isOpen={isOpen} onClose={onClose}>
+               
+                <a class="btn btn-primary" href="/micro" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
+            {/* <Modal isCentered isOpen={isOpen} onClose={onClose}>
               {overlay}
               <ModalContent>
                 <ModalHeader>Microsoft Dynamics 365 Implementation</ModalHeader>
@@ -231,7 +206,7 @@ const headerStyle = {
                   <Button onClick={onClose}>Close</Button>
                 </ModalFooter>
               </ModalContent>
-            </Modal>
+            </Modal> */}
                 </ButtonGroup>
               </Box>
               </Stack>
@@ -257,16 +232,8 @@ const headerStyle = {
                 mb={2}
               >
                 <ButtonGroup gap='4'>
-                <Button
-              ml='6'
-              onClick={() => {
-                setOverlay(<OverlayTwo />)
-                onOpen()
-              }}
-            >
-             READ MORE ...
-            </Button>
-            <Modal isCentered isOpen={isOpen} onClose={onClose}>
+                <a class="btn btn-primary" href="/support" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
+            {/* <Modal isCentered isOpen={isOpen} onClose={onClose}>
               {overlay}
               <ModalContent>
                 <ModalHeader>Support and Consultation</ModalHeader>
@@ -281,7 +248,7 @@ const headerStyle = {
                   <Button onClick={onClose}>Close</Button>
                 </ModalFooter>
               </ModalContent>
-            </Modal>
+            </Modal> */}
                 </ButtonGroup>
               </Box>
               </Stack>
@@ -307,17 +274,8 @@ const headerStyle = {
                 mb={2}
               >
                 <ButtonGroup gap='4'>
-                <Button
-              ml='4'
-              size='sm'
-              onClick={() => {
-                setOverlay(<OverlayTwo />)
-                onOpen()
-              }}
-            >
-              READ MORE ...
-            </Button >
-            <Modal isCentered isOpen={isOpen} onClose={onClose}>
+                <a class="btn btn-primary" href="/analysis" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
+            {/* <Modal isCentered isOpen={isOpen} onClose={onClose}>
               {overlay}
               <ModalContent>
                 <ModalHeader>Business Analysis</ModalHeader>
@@ -332,7 +290,7 @@ const headerStyle = {
                   <Button onClick={onClose}>Close</Button>
                 </ModalFooter>
               </ModalContent>
-            </Modal>
+            </Modal> */}
                 </ButtonGroup>
               </Box>
               </Stack>
@@ -342,7 +300,7 @@ const headerStyle = {
         </SimpleGrid>
       <h2>Our Involvement</h2>
       
-      <SimpleGrid spacing={6}  templateColumns='repeat(auto-fill, minmax(250px, 1fr))'>
+      <SimpleGrid spacing={2}  templateColumns='repeat(auto-fill, minmax(250px, 1fr))'>
       <Card maxW='md' >
             <CardBody>
               <Image
@@ -350,7 +308,7 @@ const headerStyle = {
                 alt='Green double couch with wooden legs'
                 borderRadius='lg'
               />
-              <Stack mt='6' spacing='3'>
+              <Stack mt='0' spacing='0'>
                 <Heading size='md'>ICT Consultancy</Heading>
                 <Text>
                 With a deep understanding of technology trends and business processes,
@@ -360,17 +318,8 @@ const headerStyle = {
                 
               </Stack>
             </CardBody>
-            <Divider />
-            <CardFooter>
-              <ButtonGroup spacing='2'>
-                <Text variant='solid' colorScheme='blue'>
-                  This also offered
-                </Text>
-                <Button variant='ghost' colorScheme='blue'>
-                  
-                </Button>
-              </ButtonGroup>
-            </CardFooter>
+            
+            
           </Card>
           <Card maxW='md'>
             <CardBody>
@@ -379,7 +328,7 @@ const headerStyle = {
                 alt='Green double couch with wooden legs'
                 borderRadius='lg'
               />
-              <Stack  spacing='3'>
+              <Stack  spacing='0'>
                 <Heading size='md'>Software Development</Heading>
                 <Text>
                 We have strong collaboration among cross-functional teams, with a deep
@@ -389,17 +338,7 @@ const headerStyle = {
                 
               </Stack>
             </CardBody>
-            <Divider />
-            <CardFooter>
-              <ButtonGroup spacing='2'>
-                <Text variant='solid' colorScheme='blue'>
-                  Statify offer this
-                </Text>
-                <Button variant='ghost' colorScheme='blue'>
-                  
-                </Button>
-              </ButtonGroup>
-            </CardFooter>
+                   
           </Card>
           <Card maxW='md'>
             <CardBody>
@@ -408,28 +347,19 @@ const headerStyle = {
                 alt='Green double couch with wooden legs'
                 borderRadius='lg'
               />
-              <Stack mt='6' spacing='3'>
+              <Stack mt='0' spacing='0'>
                 <Heading size='md'>ERPNext Implementation</Heading>
                 <Text>
                 We have a thorough understanding of the organization's business processes
-          and can configure the software to align with these processes. Our ERPNext
-          consultants or experts have experience with the platform, ensuring
-          successful implementation.
+                and can configure the software to align with these processes. Our ERPNext
+                consultants or experts have experience with the platform, ensuring
+                successful implementation.
                 </Text>
                 
               </Stack>
             </CardBody>
-            <Divider />
-            <CardFooter>
-              <ButtonGroup spacing='2'>
-                <Text variant='solid' colorScheme='blue'>
-                 This is offered here!!
-                </Text>
-                <Button variant='ghost' colorScheme='blue'>
-                  
-                </Button>
-              </ButtonGroup>
-            </CardFooter>
+            
+            
           </Card>
           <Card maxW='md'>
             <CardBody>
@@ -438,28 +368,15 @@ const headerStyle = {
                 alt='Green double couch with wooden legs'
                 borderRadius='lg'
               />
-              <Stack mt='6' spacing='3'>
+              <Stack mt='0' spacing='0'>
                 <Heading size='md'>ERPNext Implementation</Heading>
                 <Text>
-                We have a thorough understanding of the organization's business processes
-          and can configure the software to align with these processes. Our ERPNext
-          consultants or experts have experience with the platform, ensuring
-          successful implementation.
+                We have a thorough understanding of the organization's business processes and can configure the software to align with these processes. Our ERPNext consultants or experts have experience with the platform, ensuring successful implementation.
                 </Text>
                 
               </Stack>
             </CardBody>
-            <Divider />
-            <CardFooter>
-              <ButtonGroup spacing='2'>
-                <Text variant='solid' colorScheme='blue'>
-                 This is offered here!!
-                </Text>
-                <Button variant='ghost' colorScheme='blue'>
-                  
-                </Button>
-              </ButtonGroup>
-            </CardFooter>
+                     
           </Card>
         </SimpleGrid> 
       <h2>Modules</h2>
