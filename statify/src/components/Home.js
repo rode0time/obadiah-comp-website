@@ -11,7 +11,6 @@ import "../Styles/Home.css";
 // import { MdCheckCircle } from '@chakra-ui/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Alert } from 'react-bootstrap';
 import  { useState} from 'react';
 
 
@@ -388,11 +387,8 @@ const headerStyle = {
             <div className="card text-sm-white" style={{width:'100%',height:'200%'}}>
               <img src="https://tse3.mm.bing.net/th?id=OIP.uERZcgzuCZrDemwCKP_nVgHaC3&pid=Api&P=0&h=220" className="card-img" alt="..."/>
               <div className="card-img-overlay">
-                  <h2 className="card-title" style={{ paddingTop:'5%',paddingLeft:'10%',color: '#ffc107', fontSize: '40px'}}>Discover Erp Modules With Us.</h2>
-                  <p className="card-text" style={{ paddingTop:'5%',color: '#ffc107', fontSize: '20px' }}>As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.
-
-                Engagement Details:
-                Our recent engagement centered around implementing ERP systems for diverse businesses, with a focus on optimizing operational efficiency and streamlining data management. We understand the unique challenges faced by businesses in the modern digital landscape, and our ERP solutions were tailored to address these challenges effectively.</p>
+                  <h2 className="card-title" style={{ paddingLeft:'10%',color: '#ffc107', fontSize: '40px'}}>Discover Erp Modules With Us.</h2>
+                  <p className="card-text" style={{ paddingTop:'0%',color: '#ffc107', fontSize: '20px' }}>As a leading ICT company based in Nairobi, Kenya, we take pride in our commitment to delivering top-notch ERP system services. This write-up aims to provide a comprehensive overview of our recent involvement in providing ERP solutions.</p>
                   
                   <a class="btn btn-primary" href="/models" role="button"style={{backgroundColor: '#ffc107'}}>Discover More</a>
               </div>
@@ -432,7 +428,7 @@ const headerStyle = {
                   <Heading size='md'>Payroll Management</Heading>
                 </CardHeader>
                 <CardBody>
-                  <Text></Text>
+                  <Text>Our state-of-the-art Payroll Management module is designed to streamline...</Text>
                 </CardBody>
                 <CardFooter>
                 <a href="/models" class="card-link">Read More →</a>
